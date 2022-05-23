@@ -1,0 +1,7 @@
+0
+Да, господин! Ваше слово для меня закон!//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Lune_noire\\Region2\\004Event1.txt	851
+//
+

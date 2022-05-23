@@ -1,0 +1,75 @@
+NOM                           Священник_Света
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          2
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     LUMIERE___PRETRE_DPL 8 12
+ANIM__ARA                     LUMIERE___PRETRE_SPL 8 12
+ANIM__ARE                     LUMIERE___PRETRE_SPL 8 12
+ANIM__DRA                     LUMIERE___PRETRE_SPL 8 12
+ANIM__DRE                     LUMIERE___PRETRE_SPL 8 12
+ANIM__SPL                     LUMIERE___PRETRE_SPL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     LUMIERE___PRETRE_SIN 8 12
+ANIM__SPJ                     LUMIERE___PRETRE_SIN 8 12
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     LUMIERE___PRETRE_MOR 4 12
+ANIM__MOR                     LUMIERE___PRETRE_MOR 4 12
+ANIM__MOV                     LUMIERE___PRETRE_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         B
+ENERGIE                       150
+FEU_ENERGIE__MAX              2
+VITESSE                       1
+NIVEAU                        1
+SORT1_IMAGE1                  SOINS
+SORT2_IMAGE2                  BENEDICTION_DIVINE
+SORT3_OMBRE                   EXORCISME
+SORT4_LUMIERE                 RESURRECTION
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        MAGICIEN
+MANA                          100
+MANA__MAX                     100
+FORCE                         30
+REGENERATION                  0
+POISON                        0
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             31
+V                             0
+B                             0
+ENERGIE_PAR_NIV               100
+FORCE_PAR_NIV                 10
+SELECTION 			500 501 500 501
+DEPLACEMENT 			502 501 502 503
+ATTAQUE 			503 501 503 503
+.
+[BESTIAIRE]
+DESCRIPTION                   Священник читает заклинания и черпает свою власть от его Бога и веры. Священник часто сопровождает армии, так как его молитвы приносят утешение войскам. Кроме того, его присутствие привлекает помощь его Бога в наиболее ужасных сражениях.
+ARMES                         Молитвы
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     2
+DPL_MONTAGNE                  3
+DPL_RIVIERE                   2
+ATTAQUE                       1
+ROMPRE                        1
+EMBUSCADE                     -1
+MARCHE_FORCEE                 1
+FORTIFICATION                 -1
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

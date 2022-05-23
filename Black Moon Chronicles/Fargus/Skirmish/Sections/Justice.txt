@@ -1,0 +1,40 @@
+[SECTIONS] 17
+"Палладин"		"JUSTICE___PALADIN"		"NiveauChevalier"			32	3	4	0		1PA	2PA	3PA	5T	1PA 0PA 0PA		3PA 0PA 0PA		2T  	0PA 0PA 2PA 0PA 0PA 	4PA 0PA 0PA
+"Лучник"		"JUSTICE___ARCHER"		"NiveauArcher"			27	4	4	0		1PA	2PA	3PA	5T	1PA 0PA 0PA		3PA 0PA 0PA		2T  	0PA 0PA 2PA 0PA 0PA 	4PA 0PA 0PA
+"Фаланга"	"JUSTICE___PHALANGE"	"NiveauPhalange"			29	5	4	0		1PA	2PA	3PA	5T	1PA 0PA 0PA		3PA 0PA 0PA		2T  	0PA 0PA 2PA 0PA 0PA 	4PA 0PA 0PA
+"Маг"	"JUSTICE___MAGICIEN"	"NiveauMagicien"			28	6	4	0		1PA	2PA	3PA	5T	1PA 0PA 0PA		3PA 0PA 0PA		2T	0PA 0PA 2PA 0PA 0PA 	4PA 0PA 0PA
+"Всадник"	"JUSTICE___CAVALERIE"	"NiveauCavalierLeger"		33	3	8	0		1PA	5PA	9PA 	4T	1PA 0PA 0PA		1PA 0PA 0PA		2T  	0PA 0PA 4PA 0PA 0PA	-   0PA	0PA
+"Священник"		"JUSTICE___PRETRE"		"NiveauPretre"			34	6	5	0		1PA	2PA	3PA	2T	1PA 0PA 0PA		1PA 0PA 0PA		-  	0PA 0PA 1PA 0PA 0PA 	-   0PA 0PA
+"Архангел"	"JUSTICE___ARCHANGE"	""						26	5	5	0		1PA	3PA	2PA	5T	1PA 0PA 0PA		2PA 0PA 0PA		2T  	0PA 0PA 2PA 0PA 0PA 	2PA 0PA 0PA
+"Гелланея"	"SUCCUBE"				""						25	6	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Мурата"		"MURATA"				""						22	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Горгор Бей"		"GORGOR"				""						24	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Парсифал"		"PARSIFAL"				""						31	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Рыцарь Высших Эльфов"		"ELFE___HAUT_ELFE"				""			9	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Эльф Боевой Танцор"		"ELFE___WARDANCER"				""			8	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Эльф Лучник"			"ELFE___ARCHER"					""			10	4	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Дерево Воин Эльфов"	"ELFE___ARBRE_GUERRIER"			""			11	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Элементаль Воды"		"ELEMENTAIRE___EAU"		""						3	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Висмерхил"	"WIS"					""						23	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+
+
+[UNITES] 19
+"Палладин"		"JUSTICE___PALADIN"		"NiveauChevalier"		32	3	0	1	1
+"Лучник"		"JUSTICE___ARCHER"		"NiveauArcher"		27	4	1	1	1
+"Фаланга"	"JUSTICE___PHALANGE"	"NiveauPhalange"		29	5	2	1	1
+"Маг"	"JUSTICE___MAGICIEN"	"NiveauMagicien"		28	6	3	1	1
+"Всадник"	"JUSTICE___CAVALERIE"	"NiveauCavalierLeger"	33	3	4	1	1
+"Священник"		"JUSTICE___PRETRE"		"NiveauPretre"		34	6	5	1	1
+"Архангел"	"JUSTICE___ARCHANGE"		""				26	5	6	1	1
+"Гелланея"	"SUCCUBE"					""				25	6	7	1	1
+"Мурата"		"MURATA"					""				22	3	8	1	1
+"Горгор Бей"		"GORGOR"					""				24	3	9	1	1
+"Парсифал"		"PARSIFAL"					""				31	3	10	1	1
+"Рыцарь Высших Эльфов"	"ELFE___HAUT_ELFE"			""				9	3	11	1	1
+"Эльф Боевой Танцор"	"ELFE___WARDANCER"			""				8	3	12	1	1
+"Эльф Лучник"		"ELFE___ARCHER"				""				10	4	13	1	1
+"Дерево Воин Эльфов"	"ELFE___ARBRE_GUERRIER"	""				11	7	14	1	1
+"Элементаль Воды"		"ELEMENTAIRE___EAU"			""				3	7	15	1	1
+"Висмерхил"	"WIS"						""				23	3	16	1	1
+"Знаменосец"	"JUSTICE___PD"				""				30	3	0	1	0
+"Эльф Знаменосец"	"ELFE___PD"					""				7	3	0	1	0

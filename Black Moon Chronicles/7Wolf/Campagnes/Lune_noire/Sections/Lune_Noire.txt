@@ -1,0 +1,23 @@
+[SECTIONS] 9
+"Orc"			"LUNE_NOIRE___ORC"		"NiveauOrc"				37	3	4	0		1PA	3PA	2PA	4PA		1PA 0PA 0PA		2PA 0PA 0PA		2T  	0PA 0PA 		2PA 0PA 0PA 	4PA 0PA 0PA
+"Cavalryman"		"LUNE_NOIRE___CAVALERIE"	"NiveauCavalierLeger"	42	3	8	0		1PA	5PA	-  	1PA		1PA 0PA 0PA		1PA 0PA 0PA		2T 	0PA 0PA 		4PA 0PA 0PA 	4PA 0PA 0PA
+"Priest"			"LUNE_NOIRE___PRETRE"		"NiveauPretre"		43	6	5	0		1PA	2PA	3PA	2PA		1PA 0PA 0PA		1PA 0PA 0PA		- 	0PA 0PA	 	1PA 0PA 0PA 	4PA 0PA 0PA
+"Necromancer"		"LUNE_NOIRE___NECROMANT"	"NiveauNecromant"		36	6	5	0		1PA	2PA	3PA	2PA		1PA 0PA 0PA		3PA 0PA 0PA		-	0PA 0PA		1PA 0PA 0PA 	4PA 0PA 0PA
+"Troll"			"LUNE_NOIRE___TROLL"		"NiveauTroll"			38	7	5	0		1PA	3PA	5PA 1PA		1PA 0PA 0PA		3PA 0PA 0PA		-	0PA 0PA 		2PA 0PA 0PA 	4PA 0PA 0PA
+"Giant"			"LUNE_NOIRE___GEANT"		"NiveauGeant"			35	7	5	0		1PA	3PA	5PA	1PA		1PA 0PA 0PA		3PA 0PA 0PA		-	0PA 0PA 		2PA 0PA 0PA 	4PA 0PA 0PA
+"Catapult"		"MACHINE___CATAPULTE"		"NiveauCatapulte"		67	2	3	0		1PA	-	-	-		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 		-   	-   	- 
+"Sling"			"MACHINE___BALISTE"			"NiveauBaliste"		66	1	3	0		1PA	-	-	-		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 		-   	-   	- 
+"Battering ram"			"MACHINE___BELIER"			"NiveauBelier"			78	2	3	0		1PA	-	-	-		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 		-   	-   	- 
+
+[UNITES] 10
+"Orc"			"LUNE_NOIRE___ORC"			"NiveauOrc"			37	3	0	1	1
+"Cavalryman"		"LUNE_NOIRE___CAVALERIE"	"NiveauCavalierLeger"			42	3	1	1	1
+"Priest"			"LUNE_NOIRE___PRETRE"		"NiveauPretre"			43	6	2	1	1
+"Necromancer"		"LUNE_NOIRE___NECROMANT"	"NiveauNecromant"			36	6	3	1	1
+"Troll"			"LUNE_NOIRE___TROLL"		"NiveauTroll"				38	7	4	1	1
+"Giant"			"LUNE_NOIRE___GEANT"		"NiveauGeant"				35	7	5	1	1
+"Catapult"		"MACHINE___CATAPULTE"		"NiveauCatapulte"			67	2	6	1	1
+"Sling"			"MACHINE___BALISTE"			"NiveauBaliste"		66	1	7	1	1
+"Battering ram"			"MACHINE___BELIER"			"NiveauBelier"		78	2	8	1	1
+"Standard"		"LUNE_NOIRE___PD"			""				41	3	0	1	0
+

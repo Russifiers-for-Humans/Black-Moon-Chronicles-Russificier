@@ -1,0 +1,122 @@
+//Coordonnées de la caméra au début de la mission
+[DEPART]
+64
+64
+
+//Nom de la mission.
+//Si il n'y en a pas, mettre un -
+[NOM_MISSION]
+COMBAT_NAIN_ELFE_SANGLANT
+
+[POINT_ENTREE]
+//346
+//286
+//107
+8
+
+//Temps en secondes avant de declencher l'ia
+[IA_DECLENCHEMENT]
+0
+
+
+// Indique qui peut attaquer qui: AMI/NMI NMI/NEUTRE NMI/NMI AMI/NEUTRE ...
+// [Attaquant][Attaqué]=>possibilité
+// Intervient au niveau de l'ia tactique 
+//Exemple: 
+// Joueur 0 attaque TOUT le monde
+// Autres joueurs n'attaquent QUE le joueur 0
+//0 1 1 1 1
+//1 0 0 0 0
+//1 0 0 0 0		
+//1 0 0 0 0
+//0 1 1 1 0
+
+[ATTAQUE_NEUTRE]
+0 1 1 0 0
+1 0 1 0 0
+1 1 0 0 0		
+0 0 0 0 0
+0 0 0 0 0
+
+
+// Indique qui peut prendre en charge qui au niveau des BO 
+// (permet de deplacer les groupes vers une cible)
+
+[CIBLAGE_NEUTRE]
+0 1 1 0 0
+1 0 1 0 0
+1 1 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+
+// Indique quelles sont les cibles favorites pour les groupes d'un joueur
+// (inutile pour joueur 0 => valeurs non significatives))
+
+// PAS DE PRISE EN COMPTE DES CRITERES DE PRISES EN CHARGE +-= BERSERK
+//	0	Cibles les plus proches
+//	1	Cibles les plus lointaines
+//	2	Cibles les plus faibles
+//	3	Cibles les plus fortes
+//	4	Cibles les moins nombreuses
+//	5	Cibles les plus  nombreuses
+// PRISE EN COMPTE DES CRITERES DE PRISES EN CHARGE
+//	10	Cibles les plus proches
+//	11	Cibles les plus lointaines
+//	12	Cibles les plus faibles
+//	13	Cibles les plus fortes
+//	14	Cibles les moins nombreuses
+//	15	Cibles les plus  nombreuses
+
+[CIBLES_FAVORITES]
+13 13 13 13 13
+13 13 13 13 13
+13 13 13 13 13
+13 13 13 13 13
+13 13 13 13 13
+
+[PRESENCE]
+WIS		0
+GORGOR		0
+MURATA		0
+SUCCUBE		0
+PARSIFAL	0
+FRATUS		0
+HAAZEL		0
+BARON		0
+EMPEREUR	0
+
+
+[TEXTE]				4
+..\\Texte\\Specials\\NainElfeDebut1.txt	859
+..\\Texte\\Specials\\NainElfeDebut2.txt	856
+..\\Texte\\Specials\\NainElfeDebut3.txt	827
+..\\Texte\\Specials\\NainElfeDebut4.txt	865
+
+
+[VICTOIRE]			1
+PLUS_NMI			-
+	
+[DEFAITE]			2
+MORT_OBJET_MAITRE		- 5
+MORT_OBJET_MAITRE		- 121
+
+
+[EVENEMENTS]			2
+REQUESTER 	..\\Texte\\Specials\\NainElfeVictoire1.txt	861
+REQUESTER	..\\Texte\\Specials\\NainElfeDefaite1.txt	857
+
+[CONSEQUENCESVICTOIRE]		0
+
+[CONSEQUENCESDEFAITE]		0
+
+[EVENEMENTS_AVANT_BATAILLE]	3
+NEUTRALISATION 0
+NEUTRALISATION 1
+NEUTRALISATION 2
+
+
+[OUVERTURE_PORTE]
+0
+
+

@@ -1,0 +1,6 @@
+0
+Вы щедры, но, знаете ли, корова в армии... Она будет нас обременять!//
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region8\\006Victoire3.txt	861
+//

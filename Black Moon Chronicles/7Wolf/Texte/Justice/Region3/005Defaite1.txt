@@ -1,0 +1,6 @@
+0
+Наши товары были ликвидированы, мы не имеем ничего кроме слез! //
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\005Defaite2.txt	926//
+

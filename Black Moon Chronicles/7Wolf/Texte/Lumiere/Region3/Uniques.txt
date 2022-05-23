@@ -1,0 +1,93 @@
+Nombre de lieux uniques : 6
+
+Nom : 001
+Речной Замок
+Entree : 7
+x : 22
+y : 6
+Objet Graphique : 1264
+Nbr Frame : 12
+Lock : 0
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 0
+
+
+Nom : 002
+Овраг Судьбы
+Entree : 4
+x : 18
+y : 12
+Objet Graphique : 697
+Nbr Frame : 12
+Lock : 2
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 1
+0
+Message : ..\\Texte\\Lumiere\\Region3\\Regiondebut1.txt
+Messager : -1
+
+
+Nom : 003
+Бассейн Пяти пальцев
+Entree : 3
+x : 29
+y : 11
+Objet Graphique : 698
+Nbr Frame : 12
+Lock : 2
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 1
+1
+Message : ..\\Texte\\Lumiere\\Region3\\Regiondebut1.txt
+Messager : -1
+
+
+Nom : 004
+Коричневые Холмы
+Entree : 3
+x : 30
+y : 13
+Objet Graphique : 698
+Nbr Frame : 12
+Lock : 2
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 1
+2
+Message : ..\\Texte\\Lumiere\\Region3\\Regiondebut1.txt
+Messager : -1
+
+
+Nom : 005
+Пригород Линна
+Entree : 0
+x : 14
+y : 20
+Objet Graphique : 1265
+Nbr Frame : 12
+Lock : 1
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 1
+3
+Message : ..\\Texte\\Lumiere\\Region3\\005.txt
+Messager : 866
+
+
+Nom : 006
+Линн 
+Entree : 6
+x : 12
+y : 20
+Objet Graphique : 1266
+Nbr Frame : 12
+Lock : 1
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 1
+4
+Message : ..\\Texte\\Lumiere\\Region3\\006.txt
+Messager : 866

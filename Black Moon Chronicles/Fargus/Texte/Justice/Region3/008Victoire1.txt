@@ -1,0 +1,6 @@
+0
+Победа!!!
+Принц, Империя освободилась от омерзительного влияния сил тьмы!//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\008Victoire2.txt	860//

@@ -1,0 +1,6 @@
+0
+Висмерхил, Висмерхил, это западня, будьте осторожны...//
+
+[EVENEMENTS]	1
+REQUESTER ..\\Texte\\Justice\\Region1\\005Debut2.txt	865//
+

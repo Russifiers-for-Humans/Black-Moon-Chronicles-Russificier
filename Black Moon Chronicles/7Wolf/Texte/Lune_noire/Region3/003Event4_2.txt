@@ -1,0 +1,10 @@
+0
+—мерть Ёльфам за все что они натворили!//
+
+[EVENEMENTS]	4
+DEFECTION	1
+ALLIANCE	2
+DEFECTION	3
+DEFECTION	4
+//
+

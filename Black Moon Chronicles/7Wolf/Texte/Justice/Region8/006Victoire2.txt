@@ -1,0 +1,7 @@
+0
+Ты очень щедр, но видишь ли, корова в армии может все затормозить!//
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region8\\006Victoire3.txt	861
+//
+

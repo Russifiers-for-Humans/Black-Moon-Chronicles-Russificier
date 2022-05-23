@@ -1,0 +1,7 @@
+0
+ֿמבוהא! Ýכüפû נאחבטעû. //
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Lumiere\\Region2\\004Victoire1_1.txt	862
+//
+

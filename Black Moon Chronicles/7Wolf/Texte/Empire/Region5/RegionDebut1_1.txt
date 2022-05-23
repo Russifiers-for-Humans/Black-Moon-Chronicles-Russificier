@@ -1,0 +1,8 @@
+0
+Я попробую не разочаровать Вас, мой Император!
+Я умиротворю эту область....//
+
+[EVENEMENTS] 1
+REQUESTER ..\\Texte\\Empire\\Region5\\RegionDebut1_1_1.txt  853
+//
+

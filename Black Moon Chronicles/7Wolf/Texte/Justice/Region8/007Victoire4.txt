@@ -1,0 +1,7 @@
+0
+ќгромное спасибо, мне было при€тно служить тебе!//
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region8\\007Victoire5.txt	853
+//
+

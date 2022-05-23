@@ -1,0 +1,842 @@
+nbBatiments 22
+
+
+Batiment__type "Scierie"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "EMPIRE___MENUISERIE1"
+Batiment__nom "Столяры Империи (1)"
+Batiment__nomVariable "NiveauScierie"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauArcher"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 4
+	Developpement__nom "Боевой Таран (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauBelier"
+	Developpement__valeur 1
+	Developpement__description	"Основное осадное орудие,"
+						"таран, является"
+						"однако,"
+						"обязательным оружием, чтобы разрушать"
+						"стены лучших охраняемых крепостей."
+	Developpement__nom "Катапульта (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauCatapulte"
+	Developpement__valeur 1
+	Developpement__description	"Огромное осадное"
+						"орудие, катапульта, швыряет"
+						"огромные камни во вражеские"
+						"валы, постепенно снося"
+						"любые постройки."
+	Developpement__nom "Дальнобойный Лук (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauArcDistance"
+	Developpement__valeur 1
+	Developpement__description	"Через"
+						"Открытие"
+						"дальнобойного лука,"
+						"у стрельцов увеличивается"
+						"дальнобойность их лука."
+	Developpement__nom "Наука Выравнивания (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauBois"
+	Developpement__valeur 1
+	Developpement__description	"Мастерство"
+						"методов выравнивания"
+						"позволяет укрепить"
+						"постройки к специфическим"
+						"осадным орудиям."
+Batiment__nbConstructions 2
+	Construction__nom "Кузница Империи (1)"
+	Construction__prix 300
+	Construction__typeBatiment "Forge"
+	Construction__niveauBatiment 1
+	Construction__description	"Использование"
+						"методов обработки металла"
+						"в кузне позволяет увеличить"
+						"эффективность оружия и укрепить"
+						"щиты и броню, которые будут произведены."
+	Construction__nom "Конюшни Империи (1)"
+	Construction__prix 250
+	Construction__typeBatiment "Ecurie"
+	Construction__niveauBatiment 1
+	Construction__description	"Обеспечивая"
+						"размножение и"
+						"обучение лошадей,"
+						"конюшни позволяют"
+						"армии иметь легкую кавалерию."
+
+
+Batiment__type "Ambassade"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "EMPIRE___AMBASSADE1"
+Batiment__nom "Делегация Империи (1)"
+Batiment__nomVariable "NiveauAmbassade"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPorteDrapeau"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Комерческая техника (1)"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauCommerce"
+	Developpement__valeur 1
+	Developpement__description	"Обучение"
+						"коммерческим"
+						"методам, позволяет"
+						"платить новым рекрутам"
+						"значительно меньше."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Baraquement"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "EMPIRE___BARAQUE1"
+Batiment__nom "Бараки Империи (1)"
+Batiment__nomVariable "NiveauBaraquement"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauSoldat"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 0
+Batiment__nbConstructions 0
+
+
+Batiment__type "Ecurie"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "EMPIRE___ECURIE1"
+Batiment__nom "Конюшни Империи (1)"
+Batiment__nomVariable "NiveauEcurie"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauCavalierLeger"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Скорость Всадника"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauCavalerieVitesse"
+	Developpement__valeur 1
+	Developpement__description	"Благодаря большему количеству"
+						"энергичного обучения,"
+						"всадники"
+						"умеют увеличивать свою"
+						"скорость в горах."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Forge"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "EMPIRE___FORGE1"
+Batiment__nom "Кузница Империи (1)"
+Batiment__nomVariable "NiveauForge"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 2
+	Developpement__nom "Металлургия (1)"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauArmes"
+	Developpement__valeur 1
+	Developpement__description	"Благодаря изучению"
+						"науки металлов, кузнецы"
+						"могут выбирать лучшие материалы"
+						"для строительства оружия, чтобы"
+						"создавать его более прочным и эффективным."
+	Developpement__nom "Наука Кузнецов (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauArmures"
+	Developpement__valeur 1
+	Developpement__description	"Воплощенная в"
+						"практическую науку,"
+						"кузница позволяет делать"
+						"более стойкую броню"
+						"и щиты."
+Batiment__nbConstructions 3
+	Construction__nom "Тренировочный зал Империи (1)"
+	Construction__prix 500
+	Construction__typeBatiment "SalleArmes"
+	Construction__niveauBatiment 1
+	Construction__description	"Первый этап в длинном"
+						"обучении, зал"
+						"муштры позволяет рыцарям"
+						"изучать навыки"
+						"улучшенных методов боя."
+	Construction__nom "Дом Магов Империи (1)"
+	Construction__prix 600
+	Construction__typeBatiment "TourMagiciens"
+	Construction__niveauBatiment 1
+	Construction__description	"Место изучения"
+						"тайн волшебства,"
+						"дом магов преподает"
+						"основные заклинания и"
+						"методы управления ресурсами."
+	Construction__nom "Часовня Империи (1)"
+	Construction__prix 600
+	Construction__typeBatiment "LieuCulte"
+	Construction__niveauBatiment 1
+	Construction__description	"Место молитв и"
+						"созерцания,"
+						"часовня позволяет священникам"
+						"укреплять свою веру"
+						"и учить свои первые молитвы."
+
+
+Batiment__type "SalleArmes"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "EMPIRE___SALLEARMES1"
+Batiment__nom "Тренировочный зал Империи (1)"
+Batiment__nomVariable "NiveauSalleArmes"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauChevalier"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Обращение с Оружием (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauVorpale"
+	Developpement__valeur 1
+	Developpement__description	"Первый этап в"
+						"обучении улучшенным"
+						"боевым методам,"
+						"разработка рук, укрепляет"
+						"способность атаки рыцарей."
+Batiment__nbConstructions 0
+
+
+Batiment__type "LieuCulte"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "EMPIRE___EGLISE1"
+Batiment__nom "Часовня Империи (1)"
+Batiment__nomVariable "NiveauLieuCulte"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauPretre"
+	Possibilite__valeur 1
+	Possibilite__nomVariable "NiveauPR0"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 2
+	Developpement__nom "Восстановление Веры (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauRecuperationFoi"
+	Developpement__valeur 1
+	Developpement__description	"По обнаружении методов"
+						"восстановления веры,"
+						"Священники учатся"
+						"более быстро: и они могут"
+						"использовать молитвы более часто."
+	Developpement__nom "Божественное благословение"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauPR1"
+	Developpement__valeur 1
+	Developpement__description	"Благословляя войска,"
+						"Священник восстанавливает их"
+						"силу и храбрость."
+						"Кроме того, он защищает"
+						"их от некоторых злых заклинаний."
+Batiment__nbConstructions 0
+
+
+Batiment__type "TourMagiciens"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "EMPIRE___MAGIE1"
+Batiment__nom "Дом Магов Империи (1)"
+Batiment__nomVariable "NiveauTourMagiciens"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 3
+	Possibilite__nomVariable "NiveauMagicien"
+	Possibilite__valeur 1
+	Possibilite__nomVariable "NiveauDragonImperial"
+	Possibilite__valeur 1
+	Possibilite__nomVariable "NiveauMG0"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 2
+	Developpement__nom "Восстановление Маны (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauRecuperationMana"
+	Developpement__valeur 1
+	Developpement__description	"Обнаружив"
+						"методы восстановления"
+						"маны, маги учатся"
+						"более быстро: и"
+						"они могут использовать заклинания более часто."
+	Developpement__nom "Вызов элементалей"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauMG1"
+	Developpement__valeur 1
+	Developpement__description	"Призывая элементарные"
+						"силы природы,"
+						"маг призывает коротким"
+						"заклинанием мощное создание,"
+						"способное разрушать врагов."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Scierie"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "EMPIRE___MENUISERIE2"
+Batiment__nom "Плотники Империи (2)"
+Batiment__nomVariable "NiveauScierie"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauArcher"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 3
+	Developpement__nom "Катапульта (2)"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauCatapulte"
+	Developpement__valeur 2
+	Developpement__description	"Огромное осадное"
+						"орудие, катапульта, швыряет"
+						"огромные камни во вражеские"
+						"валы, постепенно снося"
+						"любые постройки."
+	Developpement__nom "Мощный Лук (2)"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauArcPuissance"
+	Developpement__valeur 1
+	Developpement__description	"Увеличивая"
+						"скорость стрел,"
+						"мощный лук позволяет"
+						"стрельцам, причинять"
+						"врагам глубокие раны."
+	Developpement__nom "Наука Сборки (2)"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauBois"
+	Developpement__valeur 2
+	Developpement__description	"Эти новые"
+						"методы"
+						"строительства, позволяют"
+						"создавать более прочные"
+						"здания."
+Batiment__nbConstructions 3
+	Construction__nom "Горны Империи (2)"
+	Construction__prix 500
+	Construction__typeBatiment "Forge"
+	Construction__niveauBatiment 2
+	Construction__description	"Власть"
+						"горна позволяет увеличить"
+						"эффективность оружия и"
+						"степень брони"
+						"и щиты."
+	Construction__nom "Фермы Империи (2)"
+	Construction__prix 450
+	Construction__typeBatiment "Ecurie"
+	Construction__niveauBatiment 2
+	Construction__description	"Через развитие"
+						"методов"
+						"Коневодства и"
+						"обучения лошадей, ферма позволяет"
+						"увеличить эффективность кавалерии."
+	Construction__nom "Барак Империи (2)"
+	Construction__prix 300
+	Construction__typeBatiment "Baraquement"
+	Construction__niveauBatiment 2
+	Construction__description	"Барак используется,"
+						"чтобы поднимать и организовать"
+						"армии прежде, чем пойдут в"
+						"поход. И в нем намного"
+						"лучше обучаются войска."
+
+
+Batiment__type "Ambassade"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "EMPIRE___AMBASSADE2"
+Batiment__nom "Консульство Империи (2)"
+Batiment__nomVariable "NiveauAmbassade"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPorteDrapeau"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 1
+	Developpement__nom "Коммерческие контракты (2)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauCommerce"
+	Developpement__valeur 2
+	Developpement__description	"Мастерство"
+						"коммерческих контрактов"
+						"позволяет снизить затраты"
+						"на сбор и поддержку"
+						"армий."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Ecurie"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "EMPIRE___ECURIE2"
+Batiment__nom "Фермы Империи (2)"
+Batiment__nomVariable "NiveauEcurie"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauCavalierLeger"
+	Possibilite__valeur 2
+	Possibilite__nomVariable "NiveauLeviathan"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Закалка Кавалерии"
+	Developpement__prix 250
+	Developpement__nomVariable "NiveauChargeCavalerie"
+	Developpement__valeur 1
+	Developpement__description	"Обучение"
+						"улучшенным методам езды,"
+						"связано с очень строгим"
+						"обучением, но они позволяют"
+						"создать кавалерию."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Baraquement"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "EMPIRE___BARAQUE2"
+Batiment__nom "Барак Империи (2)"
+Batiment__nomVariable "NiveauBaraquement"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauSoldat"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 0
+Batiment__nbConstructions 0
+
+
+Batiment__type "Forge"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "EMPIRE___FORGE2"
+Batiment__nom "Горны Империи (2)"
+Batiment__nomVariable "NiveauForge"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 4
+	Developpement__nom "Строп (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauBaliste"
+	Developpement__valeur 1
+	Developpement__description	"Разрушительные осадные"
+						"орудия, строп или"
+						"заряды Баллисты,"
+						"подобно гигантскому арбалету,"
+						"уничтожают вражеские соединения."
+	Developpement__nom "Горящие Снаряды"
+	Developpement__prix 500
+	Developpement__nomVariable "NiveauProjectilesEnflammes"
+	Developpement__valeur 1
+	Developpement__description	"Результат этого"
+						"исследования позволит"
+						"катапультам и"
+						"стропам использовать огненные"
+						"снаряды на поле боя."
+	Developpement__nom "Наука о Сплавах (2)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauArmes"
+	Developpement__valeur 2
+	Developpement__description	"Открытие"
+						"науки сплавов позволяет создавать"
+						"более прекрасное и стойкое,"
+						"а потому гораздо более"
+						"смертельное оружие."
+	Developpement__nom "Наука Плавки Металлов (2)"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauArmures"
+	Developpement__valeur 2
+	Developpement__description	"Обучение"
+						"плавке металлов позволяет создавать"
+						"чрезвычайно прочную броню,"
+						"гораздо лучше защищающую"
+						"бойцов."
+Batiment__nbConstructions 3
+	Construction__nom "Оружейная Империи (2)"
+	Construction__prix 950
+	Construction__typeBatiment "SalleArmes"
+	Construction__niveauBatiment 2
+	Construction__description	"В складе оружия,"
+						"рыцари совершенствуют"
+						"методы боя, которые"
+						"сделают их серьезными"
+						"противниками на поле боя."
+	Construction__nom "Школа Магии Империи (2)"
+	Construction__prix 1000
+	Construction__typeBatiment "TourMagiciens"
+	Construction__niveauBatiment 2
+	Construction__description	"Магическая"
+						"школа преподает"
+						"новые заклинания и совершенствует"
+						"умение пользоваться своей"
+						"властью."
+	Construction__nom "Церковь Империи (2)"
+	Construction__prix 1000
+	Construction__typeBatiment "LieuCulte"
+	Construction__niveauBatiment 2
+	Construction__description	"Святое здание"
+						"молитвы и созерцания,"
+						"церковь позволяет"
+						"Священникам усиливать свою"
+						"веру и изучать новые молитвы."
+
+
+Batiment__type "SalleArmes"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "EMPIRE___SALLEARMES2"
+Batiment__nom "Оружейная Империи (2)"
+Batiment__nomVariable "NiveauSalleArmes"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauChevalier"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 2
+	Developpement__nom "Секретные Боты (2)"
+	Developpement__prix 450
+	Developpement__nomVariable "NiveauVorpale"
+	Developpement__valeur 2
+	Developpement__description	"Используя тайну"
+						"ботинок рыцарей,"
+						"они часто используют"
+						"их преимущества перед"
+						"врагом в рукопашной."
+	Developpement__nom "Ярость Рыцаря"
+	Developpement__prix 500
+	Developpement__nomVariable "NiveauFurieChevalier"
+	Developpement__valeur 1
+	Developpement__description	"Когда сражение кажется"
+						"проигранным, ярость"
+						"дает рыцарям"
+						"второй шанс, который может"
+						"изменить исход сражения."
+Batiment__nbConstructions 0
+
+
+Batiment__type "LieuCulte"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "EMPIRE___EGLISE2"
+Batiment__nom "Церковь Империи (2)"
+Batiment__nomVariable "NiveauLieuCulte"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPretre"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 5
+	Developpement__nom "Религиозный Пыл (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauRecuperationFoi"
+	Developpement__valeur 2
+	Developpement__description	"Религиозный пыл"
+						"Значительно улучшает"
+						"способность священников к"
+						"молитвам; они тогда становятся"
+						"Драгоценными Святыми Дарами на поле боя."
+	Developpement__nom "Сила Веры (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauPuissanceFoi"
+	Developpement__valeur 1
+	Developpement__description	"Развивая"
+						"мощь своей"
+						"веры,"
+						"Священники увеличивают"
+						"мощь их молитв."
+	Developpement__nom "Величие Веры (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauQuantiteFoi"
+	Developpement__valeur 1
+	Developpement__description	"Через исследование"
+						"величия"
+						"веры, священники дают"
+						"себе возможность"
+						"использовать молитвы более часто."
+	Developpement__nom "Ваде Ретро"
+	Developpement__prix 250
+	Developpement__nomVariable "NiveauPR2"
+	Developpement__valeur 1
+	Developpement__description	"Эта молитва позволяет"
+						"Священнику услать бесов"
+						"назад к их исходному"
+						"положению, заставив их"
+						"исчезнуть из мира людей."
+	Developpement__nom "Воскрешение"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauPR3"
+	Developpement__valeur 1
+	Developpement__description	"Произнеся эту"
+						"молитву, священник"
+						"может возвращать к"
+						"жизни солдат, которые"
+						"погибли на поле боя."
+Batiment__nbConstructions 0
+
+
+Batiment__type "TourMagiciens"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "EMPIRE___MAGIE2"
+Batiment__nom "Школа Магии Империи (2)"
+Batiment__nomVariable "NiveauTourMagiciens"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauMagicien"
+	Possibilite__valeur 2
+	Possibilite__nomVariable "NiveauDragonImperial"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 5
+	Developpement__nom "Волшебный Пыл (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauRecuperationMana"
+	Developpement__valeur 2
+	Developpement__description	"Волшебный пыл"
+						"заметно улучшает"
+						"способность магов к"
+						"заклинаниям. Они становятся"
+						"Драгоценными Святыми Дарами на поле боя."
+	Developpement__nom "Сила Маны (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauPuissanceMana"
+	Developpement__valeur 1
+	Developpement__description	"В развитии"
+						"мощь своей"
+						"маны,"
+						"маги увеличивают"
+						"мощь их заклинаний."
+	Developpement__nom "Величие Маны (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauQuantiteMana"
+	Developpement__valeur 1
+	Developpement__description	"Своим исследованием"
+						"величия"
+						"маны, маги получают"
+						"возможность"
+						"использовать заклинания более часто."
+	Developpement__nom "Огненный дождь"
+	Developpement__prix 750
+	Developpement__nomVariable "NiveauMG2"
+	Developpement__valeur 1
+	Developpement__description	"Обозначая"
+						"зону на"
+						"поле боя,"
+						"маг порождает на ней"
+						"огненный дождь."
+	Developpement__nom "Полиморфизм"
+	Developpement__prix 500
+	Developpement__nomVariable "NiveauMG3"
+	Developpement__valeur 1
+	Developpement__description	"Обозначив врага"
+						"жестом,"
+						"маг превращает его"
+						"в свинью - не очень"
+						"желательная ситуация на поле боя."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Scierie"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "EMPIRE___MENUISERIE3"
+Batiment__nom "Создатели Империи (3)"
+Batiment__nomVariable "NiveauScierie"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauArcher"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 3
+	Developpement__nom "Катапульта (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauCatapulte"
+	Developpement__valeur 3
+	Developpement__description	"Огромное осадное"
+						"орудие, катапульта, швыряет"
+						"огромные камни во вражеские"
+						"валы, постепенно снося"
+						"любые постройки."
+	Developpement__nom "Точный Лук (3)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauArcPrecision"
+	Developpement__valeur 1
+	Developpement__description	"Открытие"
+						"дальнобойного лука и мощного"
+						"точного лука, делает"
+						"оружие стрельцов"
+						"страшно точным и эффективным."
+	Developpement__nom "Наука Драгоценного Леса (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauBois"
+	Developpement__valeur 3
+	Developpement__description	"Через открытие"
+						"исключительные свойства"
+						"драгоценного леса,"
+						"создатели производят"
+						"более стойкие осадные орудия."
+Batiment__nbConstructions 2
+	Construction__nom "Литейный завод Империи (3)"
+	Construction__prix 750
+	Construction__typeBatiment "Forge"
+	Construction__niveauBatiment 3
+	Construction__description	"Создавая высокие температуры и"
+						"используя самые последние открытия"
+						"в области сплавов, литейный завод позволяет"
+						"создавать огромное оружие и чрезвычайно"
+						"стойкую броню и щиты."
+	Construction__nom "Жилье Империи (3)"
+	Construction__prix 400
+	Construction__typeBatiment "Baraquement"
+	Construction__niveauBatiment 3
+	Construction__description	"Только это жилое помещение имеет"
+						"необходимую инфраструктуру"
+						"для обучения и жилья"
+						"отборных войск, гарантируя"
+						"более эффективную кампанию."
+
+
+Batiment__type "Ambassade"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "EMPIRE___AMBASSADE3"
+Batiment__nom "Посольство Империи (3)"
+Batiment__nomVariable "NiveauAmbassade"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPorteDrapeau"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 1
+	Developpement__nom "Коммерческая Мощь Империи (3)"
+	Developpement__prix 450
+	Developpement__nomVariable "NiveauCommerce"
+	Developpement__valeur 3
+	Developpement__description	"Налагая свою"
+						"коммерческую власть,"
+						"Империя позволяет"
+						"значительно снизить стоимость"
+						"своих войск."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Baraquement"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "EMPIRE___BARAQUE3"
+Batiment__nom "Жилье Империи (3)"
+Batiment__nomVariable "NiveauBaraquement"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauSoldat"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 0
+Batiment__nbConstructions 0
+
+
+Batiment__type "Forge"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "EMPIRE___FORGE3"
+Batiment__nom "Литейный завод Империи (3)"
+Batiment__nomVariable "NiveauForge"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 2
+	Developpement__nom "Исскуство Сталеварения (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauArmes"
+	Developpement__valeur 3
+	Developpement__description	"Обучение"
+						"искусству сталеварения,"
+						"позволяет оружию быть"
+						"более эффективным"
+						"в бою."
+	Developpement__nom "Исскуство Брони (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauArmures"
+	Developpement__valeur 3
+	Developpement__description	"В развитии искусства"
+						"бронирования,"
+						"кузнецы приобретают умение"
+						"создавать броню,"
+						"и легкую и прочную."
+Batiment__nbConstructions 2
+	Construction__nom "Военная Академия Империи (3)"
+	Construction__prix 1500
+	Construction__typeBatiment "SalleArmes"
+	Construction__niveauBatiment 3
+	Construction__description	"Через обучение"
+						"окончательным методам боя,"
+						"Военная академия заканчивает"
+						"обучение рыцарей,"
+						"создавая исключительных бойцов."
+	Construction__nom "Магическая Академия Империи (3)"
+	Construction__prix 2000
+	Construction__typeBatiment "TourMagiciens"
+	Construction__niveauBatiment 3
+	Construction__description	"Окончательно обучая"
+						"элиту магов Империи,"
+						"Академия магов преподает"
+						"особо разрушительные заклинания, для которых"
+						"только волшебный пыл может гарантировать успех."
+
+
+Batiment__type "SalleArmes"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "EMPIRE___SALLEARMES3"
+Batiment__nom "Военная Академия Империи (3)"
+Batiment__nomVariable "NiveauSalleArmes"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauChevalier"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 1
+	Developpement__nom "Исскуство Смертельного Удара (3)"
+	Developpement__prix 900
+	Developpement__nomVariable "NiveauVorpale"
+	Developpement__valeur 3
+	Developpement__description	"Созданное для элитных"
+						"войск, преподавание искусства"
+						"смертельного удара позволяет"
+						"уничтожать вражеские войска,"
+						"только коснувшись меча."
+Batiment__nbConstructions 0
+
+
+Batiment__type "TourMagiciens"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "EMPIRE___MAGIE3"
+Batiment__nom "Магическая Академия Империи (3)"
+Batiment__nomVariable "NiveauTourMagiciens"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauMagicien"
+	Possibilite__valeur 3
+	Possibilite__nomVariable "NiveauDragonImperial"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 5
+	Developpement__nom "Постоянный Поток (3)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauRecuperationMana"
+	Developpement__valeur 3
+	Developpement__description	"В состоянии постоянного"
+						"транса, маги могут читать"
+						"заклинания постоянного течения"
+						"очень быстро, являясь способными"
+						"использовать наиболее мощные заклинания."
+	Developpement__nom "Интенсивность Маны (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauPuissanceMana"
+	Developpement__valeur 2
+	Developpement__description	"По достижении экстремума"
+						"концентрации, маги"
+						"еще больше увеличивают"
+						"интенсивность манны, предоставляя"
+						"заклинаниям почти неограниченную мощь."
+	Developpement__nom "Концентрация Маны (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauQuantiteMana"
+	Developpement__valeur 2
+	Developpement__description	"Увеличивая концентрацию"
+						"исследования"
+						"величия"
+						"маны позволяет магам тратить"
+						"большее количество энергии на заклинания."
+	Developpement__nom "Устранение"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauMG4"
+	Developpement__valeur 1
+	Developpement__description	"Обозначая"
+						"врага жестом,"
+						"маг причиняет"
+						"ужасное страдание"
+						"ему, вплоть до смерти."
+	Developpement__nom "Рука Ктона"
+	Developpement__prix 1250
+	Developpement__nomVariable "NiveauMG5"
+	Developpement__valeur 1
+	Developpement__description	"Концентрируя элементарные"
+						"силы природы, маг порождает"
+						"землетрясение, которое разрушает"
+						"часть поля боя, зарывая"
+						"врага в землю."
+Batiment__nbConstructions 0

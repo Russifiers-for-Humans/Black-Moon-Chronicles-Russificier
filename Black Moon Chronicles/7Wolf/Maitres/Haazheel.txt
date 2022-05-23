@@ -1,0 +1,75 @@
+NOM                           Хаазел_Торн
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          9
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     HAZ_DPL 8 12
+ANIM__ARA                     HAZ_SPL 8 12
+ANIM__ARE                     HAZ_SPL 8 12
+ANIM__DRA                     HAZ_SPL 8 12
+ANIM__DRE                     HAZ_SPL 8 12
+ANIM__SPL                     HAZ_SPL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     HAZ_SPJ 8 12
+ANIM__SPJ                     HAZ_SIN 8 12
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     HAZ_MOR 1 12
+ANIM__MOR                     HAZ_MOR 1 12
+ANIM__MOV                     HAZ_MOR 1 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         C
+ENERGIE                       2000
+FEU_ENERGIE__MAX              0
+VITESSE                       4
+NIVEAU                        1
+SORT1_IMAGE1                  ERRADICATION
+SORT2_IMAGE2                  PRENDRE_LA_VIE
+SORT3_OMBRE                   ANIMATION_DES_MORTS
+SORT4_LUMIERE                 BOULE_DE_FEU
+SORT5_BRAISE                  SOINS
+SORT6_CRISTAL_VERT            INVOCATION_DEMONIAQUE
+SORT7_ACTIVATION_ROUGE        PLUIE_DE_FEU
+SORT8_PORTE                   RESURRECTION
+SORT9_PORTE_BLEU              EXORCISME
+CLASSE                        MAGICIEN
+MANA                          200
+MANA__MAX                     300
+FORCE                         200
+REGENERATION                  0
+POISON                        I
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             -
+V                             -
+B                             -
+ENERGIE_PAR_NIV               0
+FORCE_PAR_NIV                 0
+SELECTION 			1100 1101 1100 1101
+DEPLACEMENT 			1102 1101 1102 1102
+ATTAQUE 			1103 1102 1103 1103
+.
+[BESTIAIRE]
+DESCRIPTION                   Хаазел Торн - сильный Архмаг. Его происхождение и реальная сила неизвестны. Он - руководитель Черной Луны. Его цель состоит в том, чтобы свергнуть Императора. В сражении, он защищен отборной стражей: Черной Охраной. Его заклинания дают ему разрушительные силы против врагов.
+ARMES                         Черная Магия и Некромансия
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     3
+DPL_MONTAGNE                  2
+DPL_RIVIERE                   5
+ATTAQUE                       1
+ROMPRE                        2
+EMBUSCADE                     2
+MARCHE_FORCEE                 2
+FORTIFICATION                 2
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

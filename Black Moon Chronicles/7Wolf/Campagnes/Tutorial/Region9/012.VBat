@@ -1,0 +1,122 @@
+//Coordonnées de la caméra au début de la mission
+[DEPART]
+64
+64
+
+//Nom de la mission.
+//Si il n'y en a pas, mettre un -
+[NOM_MISSION]
+L_ASSAUT_CONTRE_GARUNDEL
+
+[POINT_ENTREE]
+0
+
+//Temps en secondes avant de declencher l'ia
+[IA_DECLENCHEMENT]
+10
+
+
+// Indique qui peut attaquer qui: AMI/NMI NMI/NEUTRE NMI/NMI AMI/NEUTRE ...
+// [Attaquant][Attaqué]=>possibilité
+// Intervient au niveau de l'ia tactique 
+//Exemple: 
+// Joueur 0 attaque TOUT le monde
+// Autres joueurs n'attaquent QUE le joueur 0
+//0 1 1 1 1
+//1 0 0 0 0
+//1 0 0 0 0		
+//1 0 0 0 0
+//1 0 0 0 0
+
+[ATTAQUE_NEUTRE]
+0 1 1 1 0
+1 0 0 0 0
+1 0 0 0 0	
+1 0 0 0 0
+0 0 0 0 0
+
+
+// Indique qui peut prendre en charge qui au niveau des BO 
+// (permet de deplacer les groupes vers une cible)
+
+[CIBLAGE_NEUTRE]
+0 1 1 1 0
+0 0 0 0 0
+1 0 0 0 0		
+0 0 0 0 0
+0 1 1 1 0
+
+
+// Indique quelles sont les cibles favorites pour les groupes d'un joueur
+// (inutile pour joueur 0 => valeurs non significatives))
+
+// PAS DE PRISE EN COMPTE DES CRITERES DE PRISES EN CHARGE +-= BERSERK
+//	0	Cibles les plus proches
+//	1	Cibles les plus lointaines
+//	2	Cibles les plus faibles
+//	3	Cibles les plus fortes
+//	4	Cibles les moins nombreuses
+//	5	Cibles les plus  nombreuses
+// PRISE EN COMPTE DES CRITERES DE PRISES EN CHARGE
+//	10	Cibles les plus proches
+//	11	Cibles les plus lointaines
+//	12	Cibles les plus faibles
+//	13	Cibles les plus fortes
+//	14	Cibles les moins nombreuses
+//	15	Cibles les plus  nombreuses
+
+[CIBLES_FAVORITES]
+10 10 10 10 10
+10 10 10 10 10
+3 10 10 10 10
+10 10 10 10 10
+10 10 10 10 10
+
+[PRESENCE]
+WIS		0
+GORGOR		0
+MURATA		0
+SUCCUBE		0
+PARSIFAL	0
+FRATUS		0
+HAAZEL		0
+BARON		0
+EMPEREUR	0
+
+[TEXTE]				1
+..\\Texte\\Tutorial\\Region9\\012Debut1.txt	865
+
+[VICTOIRE]			3
+PLUS_NMI			-
+OBJET_MAITRE_DANS_ZONE		- 64 33 7 7
+OBJET_MAITRE_DANS_ZONE		2 28 14 70 35
+
+[DEFAITE]			2
+MORT_OBJET_MAITRE		- 5
+PLUS_AMI			-
+
+[EVENEMENTS]			3
+REQUESTER	..\\Texte\\Tutorial\\Region9\\012Victoire1.txt	857
+REQUESTER	..\\Texte\\Tutorial\\Region9\\012Defaite1.txt	866
+DEFECTION			3
+
+[CONSEQUENCESVICTOIRE]		1
+GAINS_OR			5000
+
+[CONSEQUENCESDEFAITE]		0
+
+[EVENEMENTS_AVANT_BATAILLE]	2
+NEUTRALISATION			1
+NEUTRALISATION			3
+
+[OUVERTURE_PORTE]
+0
+
+[BATIMENT_DE_JOUEUR]
+2
+
+[PORTE_OUVERTE_AU_DEBUT]
+0
+
+
+

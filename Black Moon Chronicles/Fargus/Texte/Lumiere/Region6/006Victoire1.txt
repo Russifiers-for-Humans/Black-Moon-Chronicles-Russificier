@@ -1,0 +1,7 @@
+0
+Победа! Мы - хозяева поля брани.//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Lumiere\\Region6\\006Victoire1_1.txt	927
+//
+

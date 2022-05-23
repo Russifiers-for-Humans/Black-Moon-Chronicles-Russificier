@@ -1,0 +1,7 @@
+0
+Засада! Засада!
+Войска Света поджидают нас близ Линна!//
+
+[EVENEMENTS] 1
+REQUESTER ..\\Texte\\Empire\\Region3\\Reg6_Debut1_1.txt 865
+//

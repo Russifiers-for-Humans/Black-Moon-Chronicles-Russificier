@@ -1,0 +1,8 @@
+0
+Звук тревоги! Черная Луна - в лагере! К оружию! В атаку!//
+
+[EVENEMENTS]	3
+DEFECTION	1
+DEFECTION	2
+DEFECTION	3
+//

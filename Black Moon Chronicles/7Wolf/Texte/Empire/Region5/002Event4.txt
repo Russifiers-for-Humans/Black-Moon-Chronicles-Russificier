@@ -1,0 +1,8 @@
+0
+Висмерхил,
+Твоя мама отдала нам тебя давным-давно!//
+
+[EVENEMENTS] 1
+REQUESTER ..\\Texte\\Empire\\Region5\\002Event4_1.txt 865
+//
+

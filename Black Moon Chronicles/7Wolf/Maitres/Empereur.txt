@@ -1,0 +1,76 @@
+NOM                           Хагхендорф
+FAMILLE                       DRAGON
+UNITE_COMBATTANTE             1
+CAMP                          9
+TAILLE                        3
+[ANIMATION]
+ANIM__DPL                     DRAGON_VOL 8 12
+ANIM__ARA                     DRAGON_ARE 8 12
+ANIM__ARE                     DRAGON_ARE 8 12
+ANIM__DRA                     DRAGON_ARE 8 12
+ANIM__DRE                     DRAGON_ARE 8 12
+ANIM__SPL                     DRAGON_VOL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     DRAGON_VOL 8 12
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     - - -
+ANIM__SPJ                     - - -
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     DRAGON_MOR 4 12
+ANIM__MOR                     DRAGON_MOR 4 12
+ANIM__MOV                     DRAGON_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         A
+ENERGIE                       10000
+FEU_ENERGIE__MAX              0
+VITESSE                       8
+NIVEAU                        1
+SORT1_IMAGE1                  -
+SORT2_IMAGE2                  -
+SORT3_OMBRE                   -
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        DRAGON
+MANA                          0
+MANA__MAX                     0
+FORCE                         1500
+REGENERATION                  0
+POISON                        -
+HARNAIS                       1
+FORMATION                     JAMAIS
+R                             -
+V                             -
+B                             -
+ENERGIE_PAR_NIV               0
+FORCE_PAR_NIV                 0
+SELECTION 			1140 1141 1140 1141
+DEPLACEMENT 			1142 1141 1142 1141
+ATTAQUE 			1143 1142 1143 1141
+.
+REPALETTAGE                   0
+[BESTIAIRE]
+DESCRIPTION                   Хагхендорф - Иимператор. Он - Бесстрашный повелитель, управляющий Империей железной рукой и с устремлением сохранить ее целостность. Когда он ведет Имперское войско в битву, он едет на мощном драконе.
+ARMES                         Меч
+PA                            10
+DPL_PLAINE                    1
+DPL_FORET                     1
+DPL_MONTAGNE                  1
+DPL_RIVIERE                   1
+ATTAQUE                       1
+ROMPRE                        1
+EMBUSCADE                     -
+MARCHE_FORCEE                 -
+FORTIFICATION                 -
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

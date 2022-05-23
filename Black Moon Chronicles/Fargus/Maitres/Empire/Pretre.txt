@@ -1,0 +1,75 @@
+NOM                           Священник_Империи
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          0
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     EMPIRE___PRETRE_DPL 8 12
+ANIM__ARA                     EMPIRE___PRETRE_SPL 8 12
+ANIM__ARE                     EMPIRE___PRETRE_SPL 8 12
+ANIM__DRA                     EMPIRE___PRETRE_SPL 8 12
+ANIM__DRE                     EMPIRE___PRETRE_SPL 8 12
+ANIM__SPL                     EMPIRE___PRETRE_SPL 8 12
+ANIM__ASP                     EMPIRE___PRETRE_SIN 8 12
+ANIM__VOL                     -     - -
+ANIM__DEC                     -     - -
+ANIM__ATT                     -     - -
+ANIM__ECR                     -     - -
+ANIM__SSP                     EMPIRE___PRETRE_SIN 8 12
+ANIM__SIN                     EMPIRE___PRETRE_SIN 8 12
+ANIM__SPJ                     EMPIRE___PRETRE_SPJ 8 12
+ANIM__APU                     -     - -
+ANIM__CCA                     -     - -
+ANIM__CCH                     -     - -
+ANIM__VOR                     EMPIRE___PRETRE_MOR 4 12
+ANIM__MOR                     EMPIRE___PRETRE_MOR 4 12
+ANIM__MOV                     EMPIRE___PRETRE_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         C
+ENERGIE                       150
+FEU_ENERGIE__MAX              2
+VITESSE                       5
+NIVEAU                        1
+SORT1_IMAGE1                  SOINS
+SORT2_IMAGE2                  BENEDICTION_DIVINE
+SORT3_OMBRE                   RESURRECTION
+SORT4_LUMIERE                 EXORCISME
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        MAGICIEN
+MANA                          100
+MANA__MAX                     100
+FORCE                         30
+REGENERATION                  1
+POISON                        -
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             31
+V                             0
+B                             0
+ENERGIE_PAR_NIV               100
+FORCE_PAR_NIV                 10
+SELECTION 			500 501 500 501
+DEPLACEMENT 			502 501 502 503
+ATTAQUE 			503 501 503 503
+.
+[BESTIAIRE]
+DESCRIPTION                   Священник накладывает заклинания и черпает силы от бога, в которого он верит. Священник часто отправляется в походы с армией, чтоб заботиться о войсках и поднимать их дух. Кроме того, его присутствие благосклонно сказывается на солдатах в жестоких битвах.
+ARMES                         Молитвы
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     2
+DPL_MONTAGNE                  3
+DPL_RIVIERE                   2
+ATTAQUE                       1
+ROMPRE                        -
+EMBUSCADE                     5
+MARCHE_FORCEE                 +1
+FORTIFICATION                 -
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

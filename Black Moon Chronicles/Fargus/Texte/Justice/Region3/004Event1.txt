@@ -1,0 +1,5 @@
+0
+За Империю, братья мои, поможем в этой жестокой битве!!!//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\004Event2.txt	863//

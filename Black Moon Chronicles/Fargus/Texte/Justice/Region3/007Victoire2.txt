@@ -1,0 +1,5 @@
+0
+К несчастью, ваш энтузиазм преувеличен, вы забыли старого противника...//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\007Victoire3.txt	860//

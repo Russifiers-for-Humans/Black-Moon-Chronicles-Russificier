@@ -1,0 +1,75 @@
+NOM                           Священник_Правосудия
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          1
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     JUSTICE___PRETRE_DPL 8 12
+ANIM__ARA                     JUSTICE___PRETRE_DPL 8 12
+ANIM__ARE                     JUSTICE___PRETRE_DPL 8 12
+ANIM__DRA                     JUSTICE___PRETRE_DPL 8 12
+ANIM__DRE                     JUSTICE___PRETRE_DPL 8 12
+ANIM__SPL                     JUSTICE___PRETRE_SPL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     JUSTICE___PRETRE_SPJ 8 12
+ANIM__SIN                     JUSTICE___PRETRE_SIN 8 12
+ANIM__SPJ                     JUSTICE___PRETRE_SPJ
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     JUSTICE___PRETRE_MOR 4 12
+ANIM__MOR                     JUSTICE___PRETRE_MOR 4 12
+ANIM__MOV                     JUSTICE___PRETRE_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         A
+ENERGIE                       150
+FEU_ENERGIE__MAX              2
+VITESSE                       1
+NIVEAU                        1
+SORT1_IMAGE1                  SOINS
+SORT2_IMAGE2                  BENEDICTION_DIVINE
+SORT3_OMBRE                   EXORCISME
+SORT4_LUMIERE                 RESURRECTION	
+SORT5_BRAISE                  RETOUR_VERS_DIEU
+SORT6_CRISTAL_VERT            JUGEMENT_DERNIER
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        MAGICIEN
+MANA                          125
+MANA__MAX                     125
+FORCE                         30
+REGENERATION                  1
+POISON                        -
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             -
+V                             -
+B                             -
+ENERGIE_PAR_NIV               100
+FORCE_PAR_NIV                 10
+SELECTION 			500 501 500 501
+DEPLACEMENT 			502 501 502 503
+ATTAQUE 			503 501 503 503
+.
+[BESTIAIRE]
+DESCRIPTION                   Священник накладывает заклинания и черпает силы от бога, в которого верит. Священник часто отправляется в поход вместе с армией, чтоб поднимать боевой дух и помогать им. Кроме того, его присутствие может благосклонно сказаться на исходе ужасной битвы.
+ARMES                         Молитвы
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     2
+DPL_MONTAGNE                  3
+DPL_RIVIERE                   2
+ATTAQUE                       1
+ROMPRE                        -
+EMBUSCADE                     5
+MARCHE_FORCEE                 +1
+FORTIFICATION                 -
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

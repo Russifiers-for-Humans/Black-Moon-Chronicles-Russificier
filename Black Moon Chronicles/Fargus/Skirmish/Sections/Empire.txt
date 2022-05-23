@@ -1,0 +1,40 @@
+[SECTIONS] 17
+"Солдат"		"EMPIRE___SOLDAT"		"NiveauSoldat"			17	3	0	0		1PA	2PA	3PA	5T		1PA 0PA 0PA		3PA 0PA 0PA		2T  0PA 0PA 		2PA 0PA 0PA 		4PA 	0PA 	0PA
+"Лучник"		"EMPIRE___ARCHER"		"NiveauArcher"			12	4	4	0		1PA	2PA	3PA	5T		1PA 0PA 0PA		3PA 0PA 0PA		2T  0PA 0PA 		2PA 0PA 0PA		4PA 	0PA 	0PA
+"Генерал"	"EMPIRE___CHEVALIER"	"NiveauChevalier"			19	3	6	0		1PA	4PA	6PA	5T		1PA 0PA 0PA		2PA 0PA 0PA		 -   -   -  		3PA 0PA 0PA		 -  	0PA 	0PA
+"Всадник"	"EMPIRE___CAVALERIE"	"NiveauCavalierLeger"		21	3	9	0		1PA	5PA	9PA 	4T		1PA 0PA 0PA		1PA 0PA 0PA		2T  0PA 0PA 		4PA 0PA 0PA		 -  	0PA 	0PA
+"Маг"	"EMPIRE___MAGICIEN"		"NiveauMagicien"			16	6	5	0		1PA	2PA	3PA	2T		1PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		1PA 0PA 0PA	 	-  	0PA	0PA
+"Священник"		"EMPIRE___PRETRE"		"NiveauPretre"			20	6	5	0		1PA	2PA	3PA	2T		1PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		1PA 0PA 0PA  	 	-  	0PA 	0PA
+"Левиафан"	"EMPIRE___LEVIATHAN"		"NiveauLeviathan"			15	7	5	0		1PA	3PA	5PA	1T		1PA 0PA 0PA		3PA 0PA 0PA		 -   -   -  		2PA 0PA 0PA 	 	-  	0PA 	0PA
+"Дракон"	"EMPIRE___DRAGON"		"NiveauDragonImperial"		13	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Гном Арбалетчик"	"NAIN___ARBALETRIER"	""						61	0	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Гном Топорник"	"NAIN___HACHEUR"		""						65	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Черепаха"		"NAIN___TORTUE"			""						62	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Гелланея"	"SUCCUBE"				""						25	6	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Мурата"		"MURATA"				""						22	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Горгор Бей"		"GORGOR"				""						24	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Гагендорф"	"EMPEREUR"				""						14	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Элементаль Земли"		"ELEMENTAIRE___TERRE"	""						5	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Висмерхилл"	"WIS"					""						23	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+
+
+[UNITES] 19
+"Солдат"		"EMPIRE___SOLDAT"		"NiveauSoldat"			17	3	0	1	1
+"Лучник"		"EMPIRE___ARCHER"		"NiveauArcher"			12	4	1	1	1
+"Генерал"	"EMPIRE___CHEVALIER"	"NiveauChevalier"			19	3	2	1	1
+"Всадник"	"EMPIRE___CAVALERIE"	"NiveauCavalierLeger"		21	3	3	1	1
+"Маг"	"EMPIRE___MAGICIEN"		"NiveauMagicien"			16	6	4	1	1
+"Священник"		"EMPIRE___PRETRE"		"NiveauPretre"			20	6	5	1	1
+"Левиафан"	"EMPIRE___LEVIATHAN"		"NiveauLeviathan"			15	7	6	1	1
+"Дракон"		"EMPIRE___DRAGON"		"NiveauDragonImperial"		13	7	7	1	1
+"Гном Арбалетчик"	"NAIN___ARBALETRIER"			""				61	0	8	1	1
+"Гном Топорник"	"NAIN___HACHEUR"				""				65	3	9	1	1
+"Черепаха"		"NAIN___TORTUE"					""				62	7	10	1	1
+"Гелланея"	"SUCCUBE"						""				25	6	11	1	1
+"Мурата"		"MURATA"						""				22	3	12	1	1
+"Горгор Бей"		"GORGOR"						""				24	3	13	1	1
+"Гагендорф"	"EMPEREUR"						""				14	7	14	1	1
+"Элементаль Земли"		"ELEMENTAIRE___TERRE"			""				5	7	15	1	1
+"Висмерхилл"	"WIS"							""				23	3	16	1	1
+"Знаменосец"	"EMPIRE___PD"					""				18	3	0	1	0
+"Гном Знаменосец"	"NAIN___PD"						""				63	3	0	1	0

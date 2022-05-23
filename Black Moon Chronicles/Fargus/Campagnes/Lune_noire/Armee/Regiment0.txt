@@ -1,0 +1,72 @@
+Regiment__mort 0
+Regiment__nom =Висмерхилл
+Regiment__pointsAction 4
+Regiment__siegeSeul 0
+Regiment__plaine 1 0
+Regiment__foret 3 0
+Regiment__montagne 4 0
+Regiment__riviere 4 0
+Regiment__attaquer 1 0 1 0 1 0
+Regiment__rompre -1 -1 -1 -1 -1 -1
+Regiment__embuscade -1 -1 -1 -1 -1 -1
+Regiment__marcheForcee 2 0 2 0 2 0
+Regiment__defense -1 -1 -1 -1 -1 -1
+Regiment__leader -1
+Regiment__id 0
+Regiment__nbSections 6
+	Section__nom =Орк
+	Section__numeroObjetMaitre 10
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		339 0 500 500 100 100 10 0 0
+	Section__nom =Орк
+	Section__numeroObjetMaitre 10
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		339 0 500 500 100 100 10 0 0
+	Section__nom =Орк
+	Section__numeroObjetMaitre 10
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		339 0 500 500 100 100 10 0 0
+	Section__nom =Орк
+	Section__numeroObjetMaitre 10
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		339 0 500 500 100 100 10 0 0
+	Section__nom =Орк
+	Section__numeroObjetMaitre 10
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		10 0 500 500 100 100 10 0 0
+		339 0 500 500 100 100 10 0 0
+	Section__nom =Троль
+	Section__numeroObjetMaitre 12
+	Section__niveauChateau 1
+	Section__nbUnites 1
+		12 0 500 500 100 100 10 0 0
+

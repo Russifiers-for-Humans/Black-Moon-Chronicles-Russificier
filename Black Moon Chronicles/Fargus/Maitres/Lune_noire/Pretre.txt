@@ -1,0 +1,75 @@
+NOM                           Священник_Черной_Луны
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          3
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     LUNE_NOIRE___PRETRE_VOL  8 12
+ANIM__ARA                     LUNE_NOIRE___PRETRE_SPJ  8 12
+ANIM__ARE                     LUNE_NOIRE___PRETRE_SPJ  8 12
+ANIM__DRA                     LUNE_NOIRE___PRETRE_SPJ  8 12
+ANIM__DRE                     LUNE_NOIRE___PRETRE_SPJ  8 12
+ANIM__SPL                     LUNE_NOIRE___PRETRE_VOL  8 12
+ANIM__ASP                     LUNE_NOIRE___PRETRE_SPJ  8 12
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     LUNE_NOIRE___PRETRE_SPJ  8 12
+ANIM__SIN                     LUNE_NOIRE___PRETRE_SPJ  8 12
+ANIM__SPJ                     LUNE_NOIRE___PRETRE_SPJ  8 12
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     LUNE_NOIRE___PRETRE_MOR  4 12
+ANIM__MOR                     LUNE_NOIRE___PRETRE_MOR  4 12
+ANIM__MOV                     LUNE_NOIRE___PRETRE_MOR  4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         C
+ENERGIE                       175
+FEU_ENERGIE__MAX              2
+VITESSE                       4
+NIVEAU                        1
+SORT1_IMAGE1                  SOINS
+SORT2_IMAGE2                  RESURRECTION
+SORT3_OMBRE                   PRENDRE_LA_VIE
+SORT4_LUMIERE                 EXORCISME
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        MAGICIEN
+MANA                          100
+MANA__MAX                     100
+FORCE                         50
+REGENERATION                  1
+POISON                        0
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             31
+V                             0
+B                             0
+ENERGIE_PAR_NIV               100
+FORCE_PAR_NIV                 10
+SELECTION 			500 501 500 501
+DEPLACEMENT 			502 501 502 503
+ATTAQUE 			503 501 503 503
+.
+[BESTIAIRE]
+DESCRIPTION                   Священник накладывает заклинания и черпает силы от бога, в которого верит. Священник часто отправляется в поход вместе с армией, чтоб поднимать боевой дух и помогать им. Кроме того, его присутствие может благосклонно сказаться на исходе ужасной битвы.
+ARMES                         Молитвы
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     2
+DPL_MONTAGNE                  3
+DPL_RIVIERE                   2
+ATTAQUE                       1
+ROMPRE                        -
+EMBUSCADE                     5
+MARCHE_FORCEE                 +1
+FORTIFICATION                 -
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

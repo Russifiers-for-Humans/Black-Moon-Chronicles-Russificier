@@ -1,0 +1,7 @@
+0
+ѕринц, враги близко, мы должны нападать немедленно! //
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region5\\002Debut4.txt	860
+//
+

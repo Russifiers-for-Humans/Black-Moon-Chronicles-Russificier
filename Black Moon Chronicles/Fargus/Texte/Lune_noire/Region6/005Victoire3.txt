@@ -1,0 +1,24 @@
+3
+Я предлагаю осадные механизмы, катапульты и ремни самого высокого качества или услуги войск Гномов. Катапульта или ремни стоят 1500 кусков золота с операторами и снарядами. Наши арбалетчики и секироносцы стоят 1000 за подразделение.//
+Мы купим 1 катапульту, 1 ремень и 1 секироносца.//
+Мы купим 1 ремень и 2 секироносца.//
+Мы купим 2 катапульты, 2 ремня и 1 секироносца.//
+
+[EVENEMENTS]	14
+PERTES_OR	4000
+GAINS_UNITES	141 1 1
+GAINS_UNITES	139 1 1
+GAINS_UNITES	44 1 2
+REQUESTER	..\\Texte\\Lune_noire\\Region6\\005Victoire4.txt	859
+//
+PERTES_OR	3500
+GAINS_UNITES	139 1 1
+GAINS_UNITES	45 2 2
+REQUESTER	..\\Texte\\Lune_noire\\Region6\\005Victoire4.txt	859
+//
+PERTES_OR	7000
+GAINS_UNITES	141 2 1
+GAINS_UNITES	139 2 1
+GAINS_UNITES	45 1 2
+REQUESTER	..\\Texte\\Lune_noire\\Region6\\005Victoire4.txt	859
+//

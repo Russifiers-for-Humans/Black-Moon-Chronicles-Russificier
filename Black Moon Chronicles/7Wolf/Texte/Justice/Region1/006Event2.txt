@@ -1,0 +1,7 @@
+0
+Правильно, дети мои...//
+
+[EVENEMENTS]	1
+REQUESTER ..\\Texte\\Justice\\Region1\\006Event2_1.txt	860
+//
+

@@ -1,0 +1,75 @@
+NOM                           Маг_Империи
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          0
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     EMPIRE___MAGICIEN_DPL 8 12
+ANIM__ARA                     EMPIRE___MAGICIEN_DPL 8 12
+ANIM__ARE                     EMPIRE___MAGICIEN_DPL 8 12
+ANIM__DRA                     EMPIRE___MAGICIEN_DPL 8 12
+ANIM__DRE                     EMPIRE___MAGICIEN_DPL 8 12
+ANIM__SPL                     EMPIRE___MAGICIEN_APU 8 12
+ANIM__ASP                     EMPIRE___MAGICIEN_DPL 8 12
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     EMPIRE___MAGICIEN_DPL 8 12
+ANIM__SIN                     EMPIRE___MAGICIEN_SSP 8 12
+ANIM__SPJ                     EMPIRE___MAGICIEN_SPJ 8 12
+ANIM__APU                     EMPIRE___MAGICIEN_DPL 8 12
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     EMPIRE___MAGICIEN_MOR 4 12
+ANIM__MOR                     EMPIRE___MAGICIEN_MOR 4 12
+ANIM__MOV                     EMPIRE___MAGICIEN_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         C
+ENERGIE                       150
+FEU_ENERGIE__MAX              2
+VITESSE                       5
+NIVEAU                        1
+SORT1_IMAGE1                  BOULE_DE_FEU
+SORT2_IMAGE2                  POLYMORPHE
+SORT3_OMBRE                   ERRADICATION
+SORT4_LUMIERE                 PLUIE_DE_FEU
+SORT5_BRAISE                  INVOCATION_ELEMENTAIRE
+SORT6_CRISTAL_VERT            LA_MAIN_EMPEREUR
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        MAGICIEN
+MANA                          125
+MANA__MAX                     125
+FORCE                         20
+REGENERATION                  0
+POISON                        -
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             0
+V                             0
+B                             0
+ENERGIE_PAR_NIV               100
+FORCE_PAR_NIV                 10
+SELECTION 			520 521 520 521
+DEPLACEMENT 			522 520 522 520
+ATTAQUE 			523 522 523 522
+.
+[BESTIAIRE]
+DESCRIPTION                   Маг накладывает заклинания и черпает силу из знания магических секретов. Обычно его место не в армии. Однако он часто входит в свиту генерала, так как влияние его магии может оказать влияние на исход битвы.
+ARMES                         Магические секреты
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     2
+DPL_MONTAGNE                  3
+DPL_RIVIERE                   2
+ATTAQUE                       1
+ROMPRE                        -
+EMBUSCADE                     5
+MARCHE_FORCEE                 +1
+FORTIFICATION                 -
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

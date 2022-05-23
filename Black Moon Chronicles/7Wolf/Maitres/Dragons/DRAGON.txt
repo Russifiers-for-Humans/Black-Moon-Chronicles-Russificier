@@ -1,0 +1,76 @@
+NOM                           Дракон
+FAMILLE                       DRAGON
+UNITE_COMBATTANTE             1
+CAMP                          8
+TAILLE                        3
+[ANIMATION]
+ANIM__DPL                     DRAGON_VOL 8 12
+ANIM__ARA                     DRAGON_ARE 8 12
+ANIM__ARE                     DRAGON_ARE 8 12
+ANIM__DRA                     DRAGON_ARE 8 12
+ANIM__DRE                     DRAGON_ARE 8 12
+ANIM__SPL                     DRAGON_VOL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     DRAGON_VOL 8 12
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     - - -
+ANIM__SPJ                     - - -
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     DRAGON_MOR 4 12
+ANIM__MOR                     DRAGON_MOR 4 12
+ANIM__MOV                     DRAGON_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         C
+ENERGIE                       1000
+FEU_ENERGIE__MAX              0
+VITESSE                       8
+NIVEAU                        1
+SORT1_IMAGE1                  -
+SORT2_IMAGE2                  -
+SORT3_OMBRE                   -
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        DRAGON
+MANA                          0
+MANA__MAX                     0
+FORCE                         300
+REGENERATION                  0
+POISON                        -
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             -
+V                             -
+B                             -
+ENERGIE_PAR_NIV               400
+FORCE_PAR_NIV                 100
+SELECTION 		      51 52 51 52
+DEPLACEMENT 		      51 52 51 52
+ATTAQUE 		      51 52 51 52
+.
+REPALETTAGE                   0
+[BESTIAIRE]
+DESCRIPTION                   Обычный дракон - дракон, который прибыл из Прошлого Драконов. Он имеет те же самые способности как и Имперский дракон, но вообще менее мощен.
+ARMES                         Огненное Дыхание
+PA                            9
+DPL_PLAINE                    1
+DPL_FORET                     1
+DPL_MONTAGNE                  1
+DPL_RIVIERE                   1
+ATTAQUE                       2
+ROMPRE                        1
+EMBUSCADE                     -1
+MARCHE_FORCEE                 -1
+FORTIFICATION                 -1
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

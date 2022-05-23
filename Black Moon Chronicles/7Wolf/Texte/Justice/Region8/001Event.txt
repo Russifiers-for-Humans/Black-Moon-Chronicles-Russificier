@@ -1,0 +1,7 @@
+0
+Ты умрешь.//
+
+[EVENEMENTS]	1
+DEFECTION	3
+//
+

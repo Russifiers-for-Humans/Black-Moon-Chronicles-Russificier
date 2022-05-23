@@ -1,0 +1,6 @@
+0
+Что, кто это мог быть? //
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\007Victoire4.txt	850//
+

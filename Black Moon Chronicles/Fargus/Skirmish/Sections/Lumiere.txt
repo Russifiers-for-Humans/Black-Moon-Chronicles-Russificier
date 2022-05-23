@@ -1,0 +1,32 @@
+[SECTIONS] 14
+"Солдат"				"LUMIERE___SOLDAT"		"NiveauSoldat"			50	3	0	0		1PA	2PA	3PA	5T		1PA 0PA 0PA		3PA 0PA 0PA		2T  0PA 0PA 		2PA 0PA 0PA 		4PA 	0PA 	0PA
+"Фаланга"			"LUMIERE___PHALANGE"	"NiveauPhalange"			48	5	4	0		1PA	2PA	3PA	5T		1PA 0PA 0PA		3PA 0PA 0PA		2T  0PA 0PA 		2PA 0PA 0PA 		4PA 0PA 0PA
+"Лучник"				"LUMIERE___ARCHER"		"NiveauArcher"			45	4	0	0		1PA	2PA	3PA	5T		1PA 0PA 0PA		3PA 0PA 0PA		2T  0PA 0PA 		2PA 0PA 0PA		4PA 	0PA 	0PA
+"Рыцарь"			"LUMIERE___CHEVALIER"	"NiveauChevalier"			46	3	0	0		1PA	4PA	6PA	5T		1PA 0PA 0PA		2PA 0PA 0PA		 -   -   -  			3PA 0PA 0PA		 -  	0PA 	0PA
+"Всадник"			"LUMIERE___CAVALERIE"	"NiveauCavalierLeger"		53	3	0	0		1PA	5PA	9PA 	4T		1PA 0PA 0PA		1PA 0PA 0PA		2T  0PA 0PA 		4PA 0PA 0PA		 -  	0PA 	0PA
+"Маг"			"LUMIERE___MAGICIEN"	"NiveauMagicien"			47	6	0	0		1PA	2PA	3PA	2T		1PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  			1PA 0PA 0PA	 	-  	0PA	0PA
+"Священник"				"LUMIERE___PRETRE"		"NiveauPretre"			49	6	0	0		1PA	2PA	3PA	2T		1PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  			1PA 0PA 0PA  	 	-  	0PA 	0PA
+"Дракон"				"LUMIERE___DRAGON"		"NiveauMG1"				68	7	9	0		1PA	2PA	3PA	2T		1PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  			1PA 0PA 0PA  	 	-  	0PA 	0PA
+"Гелланея"			"SUCCUBE"				""						25	6	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Мурата"				"MURATA"				""						22	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Горгор Бей"				"GORGOR"				""						24	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Фратус Ужасный"				"FRATUS"					""						52	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Элементаль Огня"				"ELEMENTAIRE___FEU"		""						4	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Висмерхилл"			"WIS"					""						23	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+
+[UNITES] 15
+"Солдат"			"LUMIERE___SOLDAT"		"NiveauSoldat"			50	3	0	1	1
+"Фаланга"		"LUMIERE___PHALANGE"	"NiveauPhalange"			48	5	1	1	1
+"Лучник"			"LUMIERE___ARCHER"		"NiveauArcher"			45	4	2	1	1
+"Рыцарь"		"LUMIERE___CHEVALIER"	"NiveauChevalier"			46	3	3	1	1
+"Всадник"		"LUMIERE___CAVALERIE"	"NiveauCavalierLeger"		53	3	4	1	1
+"Маг"		"LUMIERE___MAGICIEN"	"NiveauMagicien"			47	6	5	1	1
+"Священник"			"LUMIERE___PRETRE"		"NiveauPretre"			49	6	6	1	1
+"Дракон"			"LUMIERE___DRAGON"		"NiveauMG1"				68	7	7	1	1
+"Гелланея"		"SUCCUBE"						""				25	6	8	1	1
+"Мурата"			"MURATA"						""				22	3	9	1	1
+"Горгор Бей"			"GORGOR"						""				24	3	10	1	1
+"Фратус Ужасный"			"FRATUS"							""				52	7	11	1	1
+"Элементаль Огня"			"ELEMENTAIRE___FEU"				""				4	7	12	1	1
+"Висмерхилл"	"WIS"						""						23	3	13	1	1
+"Знаменосец"		"LUMIERE___PD"			""						51	3	0	1	0

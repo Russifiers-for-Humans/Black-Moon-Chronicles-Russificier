@@ -1,0 +1,9 @@
+0
+Тревога! Черная Луна находится в лагере! К оружию! Нападение! //
+
+[EVENEMENTS]	3
+DEFECTION	1
+DEFECTION	2
+DEFECTION	3
+//
+

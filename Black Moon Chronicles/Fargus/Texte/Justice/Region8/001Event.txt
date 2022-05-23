@@ -1,0 +1,6 @@
+0
+Сейчас вы умрете.//
+
+[EVENEMENTS]	1
+DEFECTION	3
+//

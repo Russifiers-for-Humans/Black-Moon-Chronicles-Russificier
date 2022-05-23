@@ -1,0 +1,75 @@
+NOM                           Кавалерист_Света
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          2
+TAILLE                        2
+[ANIMATION]
+ANIM__DPL                     CAV_DPL_L 8 12
+ANIM__ARA                     CAV_ARE_L 8 12
+ANIM__ARE                     CAV_ARE_L 8 12
+ANIM__DRA                     CAV_ARE_L 8 12
+ANIM__DRE                     CAV_ARE_L 8 12
+ANIM__SPL                     CAV_DPL_L 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     - - -
+ANIM__SPJ                     - - -
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     CAV_MOR_L 4 12
+ANIM__MOR                     CAV_MOR_L 4 12
+ANIM__MOV                     CAV_MOR_L 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         B
+ENERGIE                       500
+FEU_ENERGIE__MAX              0
+VITESSE                       5
+NIVEAU                        1
+SORT1_IMAGE1                  -
+SORT2_IMAGE2                  -
+SORT3_OMBRE                   -
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        GUERRIER
+MANA                          0
+MANA__MAX                     0
+FORCE                         70
+REGENERATION                  0
+POISON                        0
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             -
+V                             -
+B                             -
+ENERGIE_PAR_NIV               110
+FORCE_PAR_NIV                 10
+SELECTION 			260 261 262 260
+DEPLACEMENT 			262 260 262 262
+ATTAQUE 			302 302 302 302
+.
+[BESTIAIRE]
+DESCRIPTION                   Легкий кавалерист вооружен коротким копьем и сидит на быстрой, но не очень крепкая лошади. Легкий кавалерист - наиболее обычный вид кавалеристов в армии, так как он не требует очень обширного обучения искусству верховой езды. Эти войска используются, чтобы прикрывать наступление главных сил, преследовать врага, а также грабить целые области в поисках пищи для войска.
+ARMES                         Пика
+PA                            8
+DPL_PLAINE                    1
+DPL_FORET                     5
+DPL_MONTAGNE                  -1
+DPL_RIVIERE                   4
+ATTAQUE                       1
+ROMPRE                        1
+EMBUSCADE                     2
+MARCHE_FORCEE                 4
+FORTIFICATION                 -1
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

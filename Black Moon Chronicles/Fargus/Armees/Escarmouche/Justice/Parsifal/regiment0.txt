@@ -1,0 +1,98 @@
+Regiment__mort 0
+Regiment__nom =Парсифал
+Regiment__pointsAction 4
+Regiment__siegeSeul 0
+Regiment__plaine 1 0
+Regiment__foret -1 -1
+Regiment__montagne -1 -1
+Regiment__riviere 0 5
+Regiment__attaquer 1 0 0 0 0 0
+Regiment__rompre 3 0 0 0 0 0
+Regiment__embuscade -1 -1 -1 -1 -1 -1
+Regiment__marcheForcee 4 0 0 0 0 0
+Regiment__defense -1 -1 -1 -1 -1 -1
+Regiment__leader -1
+Regiment__id 0
+Regiment__nbSections 8
+	Section__nom =Paladin
+	Section__numeroObjetMaitre 23
+	Section__niveauChateau 3
+	Section__nbUnites 9
+		23 0 500 500 100 100 10 0 0
+		23 0 500 500 100 100 10 0 0
+		23 0 500 500 100 100 10 0 0
+		23 0 500 500 100 100 10 0 0
+		23 0 500 500 100 100 10 0 0
+		23 0 500 500 100 100 10 0 0
+		23 0 500 500 100 100 10 0 0
+		23 0 500 500 100 100 10 0 0
+		194 0 500 500 100 100 10 0 0
+	Section__nom =Archer
+	Section__numeroObjetMaitre 21
+	Section__niveauChateau 3
+	Section__nbUnites 16
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		194 0 500 500 100 100 10 0 0
+	Section__nom =Phalange
+	Section__numeroObjetMaitre 25
+	Section__niveauChateau 3
+	Section__nbUnites 9
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		194 0 500 500 100 100 10 0 0
+	Section__nom =Magicien
+	Section__numeroObjetMaitre 24
+	Section__niveauChateau 3
+	Section__nbUnites 1
+		24 0 500 500 100 100 10 0 0
+	Section__nom =Cavalier
+	Section__numeroObjetMaitre 22
+	Section__niveauChateau 3
+	Section__nbUnites 12
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+		22 0 500 500 100 100 10 0 0
+	Section__nom =Pretre
+	Section__numeroObjetMaitre 26
+	Section__niveauChateau 3
+	Section__nbUnites 1
+		26 0 500 500 100 100 10 0 0
+	Section__nom =Archange
+	Section__numeroObjetMaitre 340
+	Section__niveauChateau 3
+	Section__nbUnites 1
+		340 0 500 500 100 100 10 0 0
+	Section__nom =Pretre
+	Section__numeroObjetMaitre 26
+	Section__niveauChateau 3
+	Section__nbUnites 1
+		26 0 500 500 100 100 10 0 0

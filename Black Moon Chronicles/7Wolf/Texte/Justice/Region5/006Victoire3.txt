@@ -1,0 +1,6 @@
+0
+Я ждал Вашего прибытия много лун...я готов, куда я должен идти?//
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region5\\006Victoire4.txt	928//
+

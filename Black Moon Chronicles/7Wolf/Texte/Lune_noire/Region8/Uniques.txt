@@ -1,0 +1,73 @@
+Nombre de lieux uniques : 5
+
+Nom : 001
+Кавалерия Преследователей
+Entree : 8
+x : 19
+y : 29
+Objet Graphique : 697
+Nbr Frame : 12
+Lock : 0
+Visite : 0
+Nouvel Etat : 3
+NbUnlock :0
+
+Nom : 002
+Мост у Мурк
+Entree : 0
+x : 27
+y : 32
+Objet Graphique : 697
+Nbr Frame : 12
+Lock : 1
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 1
+0
+Message : ..\\Texte\\Lune_noire\\Region8\\002.txt
+Messager : 871
+
+Nom : 003
+Мурк
+Entree : 6
+x : 41
+y : 29
+Objet Graphique : 1272
+Nbr Frame : 12
+Lock : 1
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 1
+1
+Message : ..\\Texte\\Lune_noire\\Region8\\003.txt
+Messager : 871
+
+Nom : 004
+Мост у Хоркера
+Entree : 0
+x : 35
+y : 15
+Objet Graphique : 697
+Nbr Frame : 12
+Lock : 1
+Visite : 0
+Nouvel Etat : 3
+NbUnlock : 1
+2
+Message : ..\\Texte\\Lune_noire\\Region8\\004.txt
+Messager : 871
+
+Nom : 005
+Хоркер
+Entree : 0
+x : 26
+y : 6
+Objet Graphique : 1266
+Nbr Frame : 12
+Lock : 1
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 1
+3
+Message : ..\\Texte\\Lune_noire\\Region8\\005.txt
+Messager : 871

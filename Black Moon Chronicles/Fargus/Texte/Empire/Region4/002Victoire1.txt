@@ -1,0 +1,7 @@
+0
+Победа! Эльфы бегут под натиском армии Императора!//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Empire\\Region4\\002Victoire2.txt	859
+// 
+ 

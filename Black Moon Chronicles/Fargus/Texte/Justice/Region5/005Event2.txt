@@ -1,0 +1,5 @@
+0
+Но что этот странник сделал, чтоб стать жертвой разбойников?//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region5\\005Event3.txt	861//

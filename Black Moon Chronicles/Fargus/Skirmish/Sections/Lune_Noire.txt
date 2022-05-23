@@ -1,0 +1,47 @@
+[SECTIONS] 21
+"Орк"				"LUNE_NOIRE___ORC"			"NiveauOrc"				37	3	4	0		1PA	3PA	2PA	5T		1PA 0PA 0PA		2PA 0PA 0PA		2T  	0PA 0PA 		2PA 0PA 0PA 	4PA 0PA 0PA
+"Всадник"			"LUNE_NOIRE___CAVALERIE"	"NiveauCavalierLeger"		42	3	4	0		1PA	5PA	-  	1T		1PA 0PA 0PA		1PA 0PA 0PA		2T 	0PA 0PA 		4PA 0PA 0PA 	4PA 0PA 0PA
+"Священник"				"LUNE_NOIRE___PRETRE"		"NiveauPretre"			43	6	5	0		1PA	2PA	3PA	2T		1PA 0PA 0PA		1PA 0PA 0PA		- 	0PA 0PA	 	1PA 0PA 0PA 	4PA 0PA 0PA
+"Неромант"			"LUNE_NOIRE___NECROMANT"	"NiveauNecromant"			36	6	5	0		1PA	2PA	3PA	2T		1PA 0PA 0PA		3PA 0PA 0PA		-	0PA 0PA		1PA 0PA 0PA 	4PA 0PA 0PA
+"Троль"				"LUNE_NOIRE___TROLL"		"NiveauTroll"				38	7	5	0		1PA	3PA	5PA 1T		1PA 0PA 0PA		3PA 0PA 0PA		-	0PA 0PA 		2PA 0PA 0PA 	4PA 0PA 0PA
+"Гигант"				"LUNE_NOIRE___GEANT"		"NiveauGeant"				35	7	5	0		1PA	3PA	5PA	1T		1PA 0PA 0PA		3PA 0PA 0PA		-	0PA 0PA 		2PA 0PA 0PA 	4PA 0PA 0PA
+"Скелет Лучник"				"MORT_VIVANT___ARCHER"			""					54	4	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Вампир"			"MORT_VIVANT___VAMPIRE"			""					58	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Магиолик"				"MORT_VIVANT___LICHE"			""					56	6	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Скелет Левиафан"			"MORT_VIVANT___LEVIATHAN"		""					55	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Скелет Солдат"				"MORT_VIVANT___SOLDAT"			""					57	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Балгатор"			"DEMON___BALGATOR"				""					0	7	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Младший Демон"			"DEMON___PETIT_DEMON"			""					1	5	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Сукубус"			"DEMON___SUCCUBE"				""					2	6	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Гелланея"			"SUCCUBE"					""						25	6	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Мурата"				"MURATA"					""						22	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Горгор Бей"				"GORGOR"					""						24	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Хазиль Торн"			"HAAZHEEL"					""						40	6	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+"Барон Морк"				"BARON"						""						44	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Лорд Небытия"				"LUNE_NOIRE___SNEG"			""						39	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 
+"Висмерхилл"			"WIS"						""						23	3	10	0		1PA	1PA	1PA	1PA		2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 	-   	-   	- 	
+
+[UNITES] 23
+"Орк"			"LUNE_NOIRE___ORC"				"NiveauOrc"				37	3	0	1	1
+"Всадник"		"LUNE_NOIRE___CAVALERIE"		"NiveauCavalierLeger"		42	3	1	1	1
+"Священник"			"LUNE_NOIRE___PRETRE"			"NiveauPretre"			43	6	2	1	1
+"Неромант"		"LUNE_NOIRE___NECROMANT"		"NiveauNecromant"			36	6	3	1	1
+"Троль"			"LUNE_NOIRE___TROLL"			"NiveauTroll"				38	7	4	1	1
+"Гигант"			"LUNE_NOIRE___GEANT"			"NiveauGeant"				35	7	5	1	1
+"Скелет Лучник"				"MORT_VIVANT___ARCHER"			""					54	4	6	1	1
+"Вампир"			"MORT_VIVANT___VAMPIRE"			""					58	3	7	1	1
+"Магиолик"				"MORT_VIVANT___LICHE"			""					56	6	8	1	1
+"Скелет Левиафан"			"MORT_VIVANT___LEVIATHAN"		""					55	7	9	1	1
+"Скелет Солдат"				"MORT_VIVANT___SOLDAT"			""					57	3	10	1	1
+"Балгатор"			"DEMON___BALGATOR"				""					0	7	11	1	1
+"Младший Демон"			"DEMON___PETIT_DEMON"			""					1	5	12	1	1
+"Сукубус"			"DEMON___SUCCUBE"				""					2	6	13	1	1
+"Гелланея"			"SUCCUBE"						""					25	6	14	1	1
+"Мурата"			"MURATA"						""						22	3	15	1	1
+"Горгор Бей"			"GORGOR"						""						24	3	16	1	1
+"Хазиль Торн"		"HAAZHEEL"						""						40	6	17	1	1
+"Лорд Небытия"			"LUNE_NOIRE___SNEG"				""						39	3	18	1	1
+"Барон Морк"			"BARON"							""						44	3	19	1	1
+"Висмерхилл"		"WIS"							""						23	3	20	1	1
+"Знаменосец"		"LUNE_NOIRE___PD"				""						41	3	0	1	0
+"Скелет Знаменосец"		"MORT_VIVANT___PD"				""						60	3	10	1	0

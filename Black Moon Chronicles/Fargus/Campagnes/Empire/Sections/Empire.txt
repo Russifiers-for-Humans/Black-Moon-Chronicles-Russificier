@@ -1,0 +1,27 @@
+[SECTIONS] 11
+"Солдат"	"EMPIRE___SOLDAT"	"NiveauSoldat"		17	3	4	0	1PA	2PA	3PA	4PA		1PA 1PA 1PA	 -   -   -	 -   -   - 	2PA 2PA 2PA	 -   -   - 
+"Лучник"	"EMPIRE___ARCHER"	"NiveauArcher"		12	4	4	0	1PA	2PA	3PA	4PA		1PA 1PA 1PA	 -   -   -	 -   -   - 	2PA 2PA 2PA	 -   -   - 
+"Генерал"	"EMPIRE___CHEVALIER"	"NiveauChevalier"	19	3	6	0	1PA	4PA	4PA	4PA		1PA 1PA 1PA	 -   -   -	 -   -   -  	3PA 3PA 3PA	 -   -   - 
+"Всадник"	"EMPIRE___CAVALERIE"	"NiveauCavalierLeger"	21	3	9	0	1PA	4PA	4PA 	4PA		1PA 1PA 1PA	 -   -   -	 -   -   - 	4PA 4PA 4PA	 -   -   - 
+"Маг"	"EMPIRE___MAGICIEN"	"NiveauMagicien"	16	6	5	0	1PA	2PA	3PA	2PA		1PA 1PA 1PA	 -   -   -	 -   -   -  	1PA 1PA 1PA	 -   -   - 
+"Священник"	"EMPIRE___PRETRE"	"NiveauPretre"		20	6	5	0	1PA	2PA	3PA	2PA		1PA 1PA 1PA	 -   -   -	 -   -   -  	1PA 1PA 1PA  	 -   -   - 
+"Левиафан"	"EMPIRE___LEVIATHAN"	"NiveauLeviathan"	15	7	5	0	1PA	3PA	4PA	4PA		1PA 1PA 1PA	 -   -   -	 -   -   -  	2PA 2PA 2PA 	 -   -   - 
+"Дракон"	"EMPIRE___DRAGON"	"NiveauDragonImperial"	13	7	10	0	1PA	1PA	1PA	1PA		1PA 1PA 1PA	 -   -   -	 -   -   -  	 -   -   - 	 -   -   - 
+"Катапульта"	"MACHINE___CATAPULTE"	"NiveauCatapulte"	67	2	4	0	1PA	4PA	4PA	4PA		1PA 1PA 1PA	 -   -   -	 -   -   -  	 -   -   - 	 -   -   - 
+"Баллиста"	"MACHINE___BALISTE"	"NiveauBaliste"		66	1	4	0	1PA	4PA	4PA	4PA		1PA 1PA 1PA	 -   -   -	 -   -   -  	 -   -   - 	 -   -   - 
+"Таран"	"MACHINE___BELIER"	"NiveauBelier"		78	2	4	0	1PA	4PA	4PA	4PA		1PA 1PA 1PA	 -   -   -	 -   -   -  	 -   -   - 	 -   -   - 
+
+[UNITES] 12
+"Солдат"	"EMPIRE___SOLDAT"	"NiveauSoldat"		17	3	0	1	1
+"Лучник"	"EMPIRE___ARCHER"	"NiveauArcher"		12	4	1	1	1
+"Генерал"	"EMPIRE___CHEVALIER"	"NiveauChevalier"	19	3	2	1	1
+"Всадник"	"EMPIRE___CAVALERIE"	"NiveauCavalierLeger"	21	3	3	1	1
+"Маг"	"EMPIRE___MAGICIEN"	"NiveauMagicien"	16	6	4	1	1
+"Священник"	"EMPIRE___PRETRE"	"NiveauPretre"		20	6	5	1	1
+"Левиафан"	"EMPIRE___LEVIATHAN"	"NiveauLeviathan"	15	7	6	1	1
+"Дракон"	"EMPIRE___DRAGON"	"NiveauDragonImperial"	13	7	7	1	1
+"Катапульта"	"MACHINE___CATAPULTE"	"NiveauCatapulte"	67	2	8	1	1
+"Баллиста"	"MACHINE___BALISTE"	"NiveauBaliste"		66	1	9	1	1
+"Таран"	"MACHINE___BELIER"	"NiveauBelier"		78	2	10	1	1
+"Знаменосец"	"EMPIRE___PD"		""			18	3	0	1	0
+

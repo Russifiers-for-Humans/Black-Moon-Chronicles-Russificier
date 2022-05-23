@@ -1,0 +1,9 @@
+0
+Братья, мы с вами. Мы будем драться до последнего вздоха!//
+
+[EVENEMENTS]	3
+ALLIANCE	1
+REQUESTER	..\\Texte\\Justice\\Region3\\007Event1_1.txt	866
+//
+REQUESTER	..\\Texte\\Justice\\Region3\\007Event1_2.txt	866//
+

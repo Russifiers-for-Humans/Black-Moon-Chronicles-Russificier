@@ -1,0 +1,129 @@
+//Coordonnées de la caméra au début de la mission
+[DEPART]
+64
+0
+
+
+//Nom de la mission.
+//Si il n'y en a pas, mettre un -
+[NOM_MISSION]
+Sysigie
+
+[POINT_ENTREE]
+//345
+//286
+//107
+4
+
+//Temps en secondes avant de declencher l'ia
+[IA_DECLENCHEMENT]
+8
+
+
+// Indique qui peut attaquer qui: AMI/NMI NMI/NEUTRE NMI/NMI AMI/NEUTRE ...
+// [Attaquant][Attaqué]=>possibilité
+// Intervient au niveau de l'ia tactique 
+//Exemple: 
+// Joueur 0 attaque TOUT le monde
+// Autres joueurs n'attaquent QUE le joueur 0
+//0 1 1 1 1
+//1 0 0 0 0
+//1 0 0 0 0		
+//1 0 0 0 0
+//0 1 1 1 0
+
+[ATTAQUE_NEUTRE]
+0 0 1 1 0
+0 0 0 0 0
+1 1 0 0 1		
+1 1 0 0 0
+0 0 0 0 0
+
+
+// Indique qui peut prendre en charge qui au niveau des BO 
+// (permet de deplacer les groupes vers une cible)
+
+[CIBLAGE_NEUTRE]
+0 0 1 1 0
+0 0 0 0 0
+1 1 0 0 1
+1 1 0 0 0
+0 0 0 0 0
+
+
+// Indique quelles sont les cibles favorites pour les groupes d'un joueur
+// (inutile pour joueur 0 => valeurs non significatives))
+
+// PAS DE PRISE EN COMPTE DES CRITERES DE PRISES EN CHARGE +-= BERSERK
+//	0	Cibles les plus proches
+//	1	Cibles les plus lointaines
+//	2	Cibles les plus faibles
+//	3	Cibles les plus fortes
+//	4	Cibles les moins nombreuses
+//	5	Cibles les plus  nombreuses
+// PRISE EN COMPTE DES CRITERES DE PRISES EN CHARGE
+//	10	Cibles les plus proches
+//	11	Cibles les plus lointaines
+//	12	Cibles les plus faibles
+//	13	Cibles les plus fortes
+//	14	Cibles les moins nombreuses
+//	15	Cibles les plus  nombreuses
+
+[CIBLES_FAVORITES]
+10 10 10 10 10
+10 10 10 10 10
+14 10 10 10 10
+10 10 10 10 10
+10 10 10 10 10
+
+[PRESENCE]
+WISMHERHILL			1
+GORGOR				0
+MURATA				0
+SUCCUBE				0
+PARSIFAL			1
+FRATUS				0
+HAAZEEL				0
+BARON				0
+EMPEREUR			0
+
+[TEXTE]				1
+..\\Texte\\Justice\\Region1\\006Debut1.txt	860
+
+[VICTOIRE]			4
+OBJET_MAITRE_DANS_ZONE		2 1 25 15 19
+OBJET_MAITRE_DANS_ZONE		3 73 43 55 50
+MORT_OBJET_MAITRE		4 375
+POURCENTAGE_PERTE_NMI		- 95
+
+	
+[DEFAITE]			2
+PLUS_AMI			-
+MORT_OBJET_MAITRE		- 5
+
+[EVENEMENTS]			5
+REQUESTER ..\\Texte\\Justice\\Region1\\006Victoire1.txt	926
+REQUESTER ..\\Texte\\Justice\\Region1\\006Defaite.txt	850 
+REQUESTER ..\\Texte\\Justice\\Region1\\006Event1.txt	850
+REQUESTER ..\\Texte\\Justice\\Region1\\006Event2.txt	869
+REQUESTER ..\\Texte\\Justice\\Region1\\006Event3.txt	850
+
+[CONSEQUENCESVICTOIRE]		1
+GAINS_OR			3000
+
+[CONSEQUENCESDEFAITE]		0
+
+[EVENEMENTS_AVANT_BATAILLE]	2
+NEUTRALISATION			2
+NEUTRALISATION			3
+
+[OUVERTURE_PORTE]
+1
+
+[BATIMENT_DE_JOUEUR]
+0
+
+[PORTE_OUVERTE_AU_DEBUT]
+0
+
+

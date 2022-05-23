@@ -1,0 +1,75 @@
+NOM                           Магиолик
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          6
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     MORT_VIVANT___LICHE_DPL 8 12
+ANIM__ARA                     MORT_VIVANT___LICHE_DRE 8 12
+ANIM__ARE                     MORT_VIVANT___LICHE_DRE 8 12
+ANIM__DRA                     MORT_VIVANT___LICHE_DRE 8 12
+ANIM__DRE                     MORT_VIVANT___LICHE_DRE 8 12
+ANIM__SPL                     MORT_VIVANT___LICHE_SPL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     MORT_VIVANT___LICHE_SIN 8 12
+ANIM__SPJ                     MORT_VIVANT___LICHE_SPJ 8 12
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     MORT_VIVANT___LICHE_MOR 4 12
+ANIM__MOR                     MORT_VIVANT___LICHE_MOR 4 12
+ANIM__MOV                     MORT_VIVANT___LICHE_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         B
+ENERGIE                       1000
+FEU_ENERGIE__MAX              3
+VITESSE                       2
+NIVEAU                        1
+SORT1_IMAGE1                  ERRADICATION
+SORT2_IMAGE2                  ANIMATION_DES_MORTS
+SORT3_OMBRE                   PRENDRE_LA_VIE
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        MAGICIEN
+MANA                          500
+MANA__MAX                     0
+FORCE                         100
+REGENERATION                  0
+POISON                        -
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             -
+V                             -
+B                             -
+ENERGIE_PAR_NIV               0
+FORCE_PAR_NIV                 0
+SELECTION 			960 961 960 961
+DEPLACEMENT 			962 961 962 963
+ATTAQUE 			963 962 963 960
+.
+[BESTIAIRE]
+DESCRIPTION                   Магиолик - живой труп некроманта, получивший после смерти высшее состояние. Его заклинания разрушают все формы жизни.
+ARMES                         Некромантия и черные секреты
+PA                            -
+DPL_PLAINE                    -
+DPL_FORET                     -
+DPL_MONTAGNE                  -
+DPL_RIVIERE                   -
+ATTAQUE                       -
+ROMPRE                        -
+EMBUSCADE                     -
+MARCHE_FORCEE                 -
+FORTIFICATION                 -
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

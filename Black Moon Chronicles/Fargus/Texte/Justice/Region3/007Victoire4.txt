@@ -1,0 +1,5 @@
+0
+Спросите ваше сердце, Парсифал, вы знаете эту черную душу уже давно!//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\007Victoire5.txt	860//

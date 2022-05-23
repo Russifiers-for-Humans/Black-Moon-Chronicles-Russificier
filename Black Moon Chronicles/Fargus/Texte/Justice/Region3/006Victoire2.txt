@@ -1,0 +1,5 @@
+0
+Хаазиль Торн?!! Но я поразил его собственной рукой. Бог свидетель!//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\006Victoire3.txt	850//

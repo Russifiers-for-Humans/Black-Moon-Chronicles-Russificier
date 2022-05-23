@@ -1,0 +1,95 @@
+Nombre de lieux uniques : 7
+
+Nom : 001
+Собрание Эльфов
+Entree : 0 
+x : 38
+y : 12
+Objet Graphique : 696
+Nbr Frame : 12
+Lock : 0
+Visite : 0
+Nouvel Etat : 3 
+NbUnlock : 0
+
+Nom : 002
+Врата Вызова
+Entree : 0
+x : 14
+y : 5
+Objet Graphique : 1292
+Nbr Frame : 1
+Lock : 0
+Visite : 0
+Nouvel Etat : 1
+NbUnlock : 0
+
+Nom : 003
+Источник Магии
+Entree : -1
+x : 21
+y : 13
+Objet Graphique : 1285
+Nbr Frame : 1
+Lock : 1
+Visite : 0
+Nouvel Etat : 1 
+NbUnlock : 1 
+1
+Message : ..\\Texte\\Lune_noire\\Region2\\003.txt
+Messager : 869
+
+Nom : 004
+Пригород Алтенберга
+Entree : 0 
+x : 6
+y : 18
+Objet Graphique : 710
+Nbr Frame : 1
+Lock : 1
+Visite : 0
+Nouvel Etat : 1 
+NbUnlock : 1 
+1
+Message : ..\\Texte\\Lune_noire\\Region2\\004.txt
+Messager : 869
+
+Nom : 005
+Крепость Алтенберга
+Entree : 0
+x : 5
+y : 18
+Objet Graphique : 1275
+Nbr Frame : 12
+Lock : 1
+Visite : 0
+Nouvel Etat : 1 
+NbUnlock : 2 
+1 3
+Message : ..\\Texte\\Lune_noire\\Region2\\005.txt
+Messager : 869
+
+
+Nom : 006
+Имперская Крепость
+Entree : 0
+x : 28
+y : 36
+Objet Graphique : 1266
+Nbr Frame : 12
+Lock : 0
+Visite : 0
+Nouvel Etat : 1 
+NbUnlock : 0 
+
+Nom : 007
+Морнеривес
+Entree : 2 
+x : 49
+y : 31
+Objet Graphique : 710
+Nbr Frame : 1
+Lock : 0
+Visite : 0
+Nouvel Etat : 1 
+NbUnlock : 0

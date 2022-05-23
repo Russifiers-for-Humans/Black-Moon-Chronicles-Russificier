@@ -1,0 +1,6 @@
+0
+Да, он похож на него. Наконец-то! После стольких лет...//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Specials\\MpwDebut3.txt	852
+//

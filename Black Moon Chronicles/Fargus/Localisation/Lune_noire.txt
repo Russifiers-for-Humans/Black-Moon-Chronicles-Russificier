@@ -1,0 +1,693 @@
+nbBatiments 21
+
+
+Batiment__type "Scierie"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "LUNE_NOIRE___MENUISERIE1"
+Batiment__nom "Столярная Черной Луны (1)"
+Batiment__nomVariable "NiveauScierie"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 2
+	Developpement__nom "Таран (1)" 
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauBelier"
+	Developpement__valeur 1
+	Developpement__description	"Основной механизм осады,"
+						"таран"
+						"все же"
+						"необходимое оружие для взятия"
+						"ворот лучших крепостей."                                
+	Developpement__nom "Наука о Выравнивании (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauBois"
+	Developpement__valeur 1
+	Developpement__description	"Мастерство"
+						"методами выравнивания"
+						"позволяет укрепить прочность"
+						"конструкции, в частности"
+						"осадные механизмы."
+ Batiment__nbConstructions 2
+	Construction__nom "Кузница Черной Луны (1)"
+	Construction__prix 300
+	Construction__typeBatiment "Forge"
+	Construction__niveauBatiment 1
+	Construction__description	"Применение"
+						"методов обработки металла"
+						"в кузнице позволяет"
+						"ковать хорошее оружие,"
+						"прочные щиты и броню."                                
+	Construction__nom "Конюшни Черной Луны (1)"
+	Construction__prix 250
+	Construction__typeBatiment "Ecurie"
+	Construction__niveauBatiment 1
+	Construction__description	"Разводя"
+						"и обучая"
+						"лошадей, конюшни"
+						"позволяют армии"
+						"иметь легкую конницу."                                
+
+
+Batiment__type "Ambassade"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "LUNE_NOIRE___AMBASSADE1"
+Batiment__nom "Делегация Черной Луны (1)"
+Batiment__nomVariable "NiveauAmbassade"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPorteDrapeau"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Коммерческие Методы (1)"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauCommerce"
+	Developpement__valeur 1
+	Developpement__description	"Обучение"
+						"коммерческим"
+						"методам позволяет"
+						"значительно уменьшить"
+						"оплату новичков."
+                                
+Batiment__nbConstructions 0
+
+Batiment__type "Baraquement"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "LUNE_NOIRE___BARAQUE1"
+Batiment__nom "Бараки Черной Луны (1)"
+Batiment__nomVariable "NiveauBaraquement"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauOrc"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 0
+Batiment__nbConstructions 0
+
+
+Batiment__type "Ecurie"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "LUNE_NOIRE___ECURIE1"
+Batiment__nom "Конюшни Черной Луны (1)"
+Batiment__nomVariable "NiveauEcurie"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauCavalierLeger"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Скорость Всадника"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauCavalerieVitesse"
+	Developpement__valeur 1
+	Developpement__description	"Благодаря более"
+						"усиленной подготовке,"
+						"всадники"
+						"научились увеличивать"
+						"скорость своих лошадей."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Forge"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "LUNE_NOIRE___FORGE1"
+Batiment__nom "Кузница Черной Луны (1)"
+Batiment__nomVariable "NiveauForge"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 2
+	Developpement__nom "Наука о Металлах (1)"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauArmes"
+	Developpement__valeur 1
+	Developpement__description	"Благодаря изучению науки о"
+						"металлах, кузнецы научились"
+						"отбирать лучшие материалы для"
+						"изготовления оружия, делая"
+						"его более прочным и эффективным."
+	Developpement__nom "Наука о Ковке (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauArmures"
+	Developpement__valeur 1
+	Developpement__description	"Применение"
+						"на практике науки"
+						"о ковке, позволяет"
+						"делать более прочную"
+						"броню и щиты."
+Batiment__nbConstructions 2
+	Construction__nom "Тренировочный Зал Черной Луны (1)"
+	Construction__prix 500
+	Construction__typeBatiment "SalleArmes"
+	Construction__niveauBatiment 1
+	Construction__description	"Как первый этап в"
+						"длительном обучении"
+						"тренировочный зал"
+						"позволяет рыцарям познать"
+						"передовые методы боя."
+	Construction__nom "Часовня Черной Луны (1)"
+	Construction__prix 600
+	Construction__typeBatiment "LieuCulte"
+	Construction__niveauBatiment 1
+	Construction__description	"Как место для молитв"
+						"созерцания, часовня"
+						"позволяет священникам"
+						"проповедовать свою"
+						"религию и изучать первые молитвы."
+
+
+Batiment__type "SalleArmes"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "LUNE_NOIRE___SALLEARMES1"
+Batiment__nom "Тренировочный Зал Черной Луны (1)"
+Batiment__nomVariable "NiveauSalleArmes"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauTroll"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Учение о Регенерации (1)"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauRegenerationTroll"
+	Developpement__valeur 1
+	Developpement__description	"Учение о регенерации,"
+						"врожденной способности"
+						"троллей, позволяет ускорить"
+						"этот процесс, и посредством"
+						"этого увеличить их силу в бою."
+Batiment__nbConstructions 0
+
+
+Batiment__type "LieuCulte"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "LUNE_NOIRE___EGLISE1"
+Batiment__nom "Часовня Черной Луны (1)"
+Batiment__nomVariable "NiveauLieuCulte"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauPretre"
+	Possibilite__valeur 1
+	Possibilite__nomVariable "NiveauPR0"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 2
+	Developpement__nom "Восстановление Веры (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauRecuperationFoi"
+	Developpement__valeur 1
+	Developpement__description	"При открытии методов"
+						"восстановления веры,"
+						"священники учатся изобретать"
+						"сами более быстро: они могут"
+						"так чаще использовать молитвы."
+	Developpement__nom "Ваде Ретро"
+	Developpement__prix 250
+	Developpement__nomVariable "NiveauPR1"
+	Developpement__valeur 1
+	Developpement__description	"Эта молитва позволяет"
+						"священнику отпугивать"
+						"демонов, делая их"
+						"невидимыми для"
+						"мира людей."
+Batiment__nbConstructions 0
+
+
+Batiment__type "RepaireTenebres"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "LUNE_NOIRE___CRYPTE1"
+Batiment__nom "Склеп Черной Луны (1)"
+Batiment__nomVariable "NiveauRepaireTenebres"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauNecromant"
+	Possibilite__valeur 1
+	Possibilite__nomVariable "NiveauNE0"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 2
+	Developpement__nom "Восстановление Злой Манны (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauRecuperationManaMalefique"
+	Developpement__valeur 1
+	Developpement__description	"При открытии методов"
+						"восстановления злой манны,"
+						"колдуны научились, как"
+						"изобретать быстрее: так"
+						"они чаще могут использовать заклинания."
+	Developpement__nom "Дьявольское Проклятие"
+	Developpement__prix 250
+	Developpement__nomVariable "NiveauNE1"
+	Developpement__valeur 1
+	Developpement__description	"Если он близок к ошибке"
+						"или проклятию,"
+						"колдун вызывает"
+						"этим заклинанием"
+						"дьявола из пучин ада."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Scierie"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "LUNE_NOIRE___MENUISERIE2"
+Batiment__nom "Плотницкая Черной Луны (2)"
+Batiment__nomVariable "NiveauScierie"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 2
+	Developpement__nom "Катапульта (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauCatapulte"
+	Developpement__valeur 1
+	Developpement__description	"Как внушительный осадный"
+						"механизм, катапульта"
+						"разрушает мощными камнями"
+						"лучшие вражеские"
+						"укрепления."
+	Developpement__nom "Наука Монтажа (2)"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauBois"
+	Developpement__valeur 1
+	Developpement__description	"Эти новые"
+						"методы"
+						"монтажа позволяют"
+						"делать более"
+						"прочные конструкции."
+Batiment__nbConstructions 3
+	Construction__nom "Печи Черной Луны (2)"
+	Construction__prix 500
+	Construction__typeBatiment "Forge"
+	Construction__niveauBatiment 2
+	Construction__description	"Мощность"
+						"печей позволяет"
+						"производить более"
+						"эффективное оружие"
+						"и хорошо защищающие броню и щиты."
+	Construction__nom "Конезавод Черной Луны (2)"
+	Construction__prix 450
+	Construction__typeBatiment "Ecurie"
+	Construction__niveauBatiment 2
+	Construction__description	"Совершенствуя"
+						"методы"
+						"разведения и"
+						"обучения лошадей, конезавод"
+						"позволяет увеличить эффективность конницы."
+	Construction__nom "Казарма Черной Луны (2)"
+	Construction__prix 300
+	Construction__typeBatiment "Baraquement"
+	Construction__niveauBatiment 2
+	Construction__description	"Как бараки, казарма"
+						"используется для"
+						"воспитания и организации армии"
+						"перед кампанией. Обучать войска"
+						"лучше там."
+
+
+Batiment__type "Ambassade"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "LUNE_NOIRE___AMBASSADE2"
+Batiment__nom "Консульство Черной Луны (2)"
+Batiment__nomVariable "NiveauAmbassade"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPorteDrapeau"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 1
+	Developpement__nom "Коммерческие Контракты (2)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauCommerce"
+	Developpement__valeur 2
+	Developpement__description	"Владение"
+						"коммерческими контрактами"
+						"позволяет снизить"
+						"стоимость сбора и"
+						"подготовки армии."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Ecurie"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "LUNE_NOIRE___ECURIE2"
+Batiment__nom "Конезавод Черной Луны (2)"
+Batiment__nomVariable "NiveauEcurie"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauCavalierLeger"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 1
+	Developpement__nom "Конная Атака"
+	Developpement__prix 250
+	Developpement__nomVariable "NiveauChargeCavalerie"
+	Developpement__valeur 1
+	Developpement__description	"Обучение передовым"
+						"методам верховой езды,"
+						"связанное с очень строгой"
+						"подготовкой, позволяет"
+						"всадникам провести конную атаку."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Baraquement"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "LUNE_NOIRE___BARAQUE2"
+Batiment__nom "Казарма Черной Луны (2)"
+Batiment__nomVariable "NiveauBaraquement"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauOrc"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 0
+Batiment__nbConstructions 0
+
+
+Batiment__type "Forge"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "LUNE_NOIRE___FORGE2"
+Batiment__nom "Печи Черной Луны (2)"
+Batiment__nomVariable "NiveauForge"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 3
+	Developpement__nom "Ремень (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauBaliste"
+	Developpement__valeur 1
+	Developpement__description	"Разбивая осадный"
+						"механизм, ремень"
+						"или баллиста выпускают"
+						"стрелы, подобно огромному"
+						"арбалету, уничтожая отряды врагов."
+	Developpement__nom "Наука о Сплавах (2)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauArmes"
+	Developpement__valeur 2
+	Developpement__description	"Открытие науки о"
+						"сплавах позволяет"
+						"делать более прочное"
+						"и смертоносное"
+						"оружие."
+	Developpement__nom "Наука о Плавке Металлов (2)"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauArmures"
+	Developpement__valeur 2
+	Developpement__description	"Обучение плавке металлов"
+						"позволяет производить"
+						"более прочную броню,"
+						"хорошо защищающую"
+						"воинов."
+Batiment__nbConstructions 2
+	Construction__nom "Плац Черной Луны (2)"
+	Construction__prix 950
+	Construction__typeBatiment "SalleArmes"
+	Construction__niveauBatiment 2
+	Construction__description	"На плацу рыцари"
+						"совершенствуют"
+						"методы борьбы, что"
+						"делает их достойными"
+						"противниками на поле боя."
+	Construction__nom "Церковь Черной Луны (2)"
+	Construction__prix 1000
+	Construction__typeBatiment "LieuCulte"
+	Construction__niveauBatiment 2
+	Construction__description	"Святое здание, поощряющее"
+						"молитвы и созерцание,"
+						"церковь позволяет"
+						"священникам усилить свою"
+						"веру и изучить новые молитвы."
+
+
+Batiment__type "SalleArmes"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "LUNE_NOIRE___SALLEARMES2"
+Batiment__nom "Плац Черной Луны (2)"
+Batiment__nomVariable "NiveauSalleArmes"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauTroll"
+	Possibilite__valeur 2
+	Possibilite__nomVariable "NiveauGeant"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Секрет Регенерации (2)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauRegenerationTroll"
+	Developpement__valeur 2
+	Developpement__description	"Открытие секрета"
+						"регенерации троллей"
+						"позволяет увеличить их"
+						"эффективность, принося"
+						"значительную пользу на поле боя."
+Batiment__nbConstructions 0
+
+
+Batiment__type "LieuCulte"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "LUNE_NOIRE___EGLISE2"
+Batiment__nom "Церковь Черной Луны (2)"
+Batiment__nomVariable "NiveauLieuCulte"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPretre"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 4
+	Developpement__nom "Религиозная Страсть (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauRecuperationFoi"
+	Developpement__valeur 2
+	Developpement__description	"Религиозная страсть"
+						"значительно улучшает"
+						"способность священников"
+						"в изобретательности; они"
+						"становятся важными элементами на поле боя."
+	Developpement__nom "Сила Веры (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauPuissanceFoi"
+	Developpement__valeur 1
+	Developpement__description	"Совершенствуя"
+						"силу веры,"
+						"священники"
+						"увеличивают силу"
+						"своих молитв."
+	Developpement__nom "Величие Веры (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauQuantiteFoi"
+	Developpement__valeur 1
+	Developpement__description	"Благодаря их изучению"
+						"величия веры,"
+						"священники дают"
+						"возможность использовать"
+						"чаще их молитвы."
+	Developpement__nom "Воскрешение"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauPR2"
+	Developpement__valeur 1
+	Developpement__description	"Читая эту"
+						"молитву, священник"
+						"может возвратить"
+						"к жизни солдата,"
+						"погибшего на поле боя."
+Batiment__nbConstructions 0
+
+
+Batiment__type "RepaireTenebres"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "LUNE_NOIRE___CRYPTE2"
+Batiment__nom "Склеп Черной Луны (2)"
+Batiment__nomVariable "NiveauRepaireTenebres"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauNecromant"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 4
+	Developpement__nom "Злая Страсть (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauRecuperationManaMalefique"
+	Developpement__valeur 2
+	Developpement__description	"Злая страсть"
+						"улучшает способность"
+						"колдунов в изобретательности;"
+						"они становятся важными"
+						"элементами на поле боя."
+	Developpement__nom "Сила Злой Манны (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauPuissanceManaMalefique"
+	Developpement__valeur 1
+	Developpement__description	"Совершенствуя"
+						"силу их злой"
+						"манны,"
+						"колдуны увеличивают"
+						"силу своих заклинаний."
+	Developpement__nom "Величие Злой Манны (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauQuantiteManaMalefique"
+	Developpement__valeur 1
+	Developpement__description	"Изучая величие"
+						"злой манны,"
+						"колдуны могут"
+						"использовать чаще"
+						"свои заклинания."
+	Developpement__nom "Берущее Жизнь"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauNE2"
+	Developpement__valeur 1
+	Developpement__description	"Пользуясь этим мощным"
+						"заклинанием, колдун"
+						"лишает жертву жизненной"
+						"энергии, оставляя ее"
+						"безжизненной на поле боя."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Scierie"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "LUNE_NOIRE___MENUISERIE3"
+Batiment__nom "Столярная Краснодеревщика Черной Луны (3)"
+Batiment__nomVariable "NiveauScierie"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 1
+	Developpement__nom "Наука о Ценной Древесине (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauBois"
+	Developpement__valeur 3
+	Developpement__description	"Благодаря открытию"
+						"необычных свойств"
+						"ценной древесины,"
+						"краснодеревщик делает"
+						"более прочные осадные механизмы."
+Batiment__nbConstructions 2
+	Construction__nom "Литейный Завод Черной Луны (3)"
+	Construction__prix 750
+	Construction__typeBatiment "Forge"
+	Construction__niveauBatiment 3
+	Construction__description	"Овладев высокими температурами"
+						"и пользуясь последними открытиями"
+						"в сплавах, литейный завод"
+						"позволяет"
+						"производить внушительное оружие, прочную броню и щиты."
+	Construction__nom "Помещения Черной Луны (3)"
+	Construction__prix 400
+	Construction__typeBatiment "Baraquement"
+	Construction__niveauBatiment 3
+	Construction__description	"Только помещения имеют"
+						"инфраструктуру, необходимую"
+						"для подготовки и проживания"
+						"элитных войск, гарантируя"
+						"более сильную армию в кампании."
+
+
+Batiment__type "Baraquement"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "LUNE_NOIRE___BARAQUE3"
+Batiment__nom "Помещения Черной Луны (3)"
+Batiment__nomVariable "NiveauBaraquement"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauOrc"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 0
+Batiment__nbConstructions 0
+
+
+Batiment__type "Forge"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "LUNE_NOIRE___FORGE3"
+Batiment__nom "Литейный Завод Черной Луны (3)"
+Batiment__nomVariable "NiveauForge"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 2
+	Developpement__nom "Литейное Искусство (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauArmes"
+	Developpement__valeur 3
+	Developpement__description	"Обучение литейному"
+						"искусству позволяет"
+						"совершенствовать"
+						"оружие до гораздо более"
+						"эффективного в бою."
+	Developpement__nom "Искусство Ковки Брони (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauArmures"
+	Developpement__valeur 3
+	Developpement__description	"Совершенствуя искусство"
+						"ковки брони, кузнецы"
+						"используют ноу-хау"
+						"для создания брони"
+						"более легкой и очень прочной."
+Batiment__nbConstructions 1
+	Construction__nom "Военная Академия Черной Луны (3)"
+	Construction__prix 1500
+	Construction__typeBatiment "SalleArmes"
+	Construction__niveauBatiment 3
+	Construction__description	"Изучая основные методы боя,"
+						"военная академия завершает"
+						"подготовку рыцарей,"
+						"делая их"
+						"незаурядными воинами."
+
+
+Batiment__type "SalleArmes"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "LUNE_NOIRE___SALLEARMES3"
+Batiment__nom "Военная Академия Черной Луны (3)"
+Batiment__nomVariable "NiveauSalleArmes"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauTroll"
+	Possibilite__valeur 3
+	Possibilite__nomVariable "NiveauGeant"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 1
+	Developpement__nom "Наука о Регенерации (3)"
+	Developpement__prix 450
+	Developpement__nomVariable "NiveauRegenerationTroll"
+	Developpement__valeur 3
+	Developpement__description	"Повышая статус науки,"
+						"регенерация троллей"
+						"становится важным элементом"
+						"военной стратегии, теперь армия"
+						"имеет фактически непобедимые войска."
+Batiment__nbConstructions 0
+
+
+Batiment__type "RepaireTenebres"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "LUNE_NOIRE___CRYPTE3"
+Batiment__nom "Склеп Черной Луны (3)"
+Batiment__nomVariable "NiveauRepaireTenebres"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauNecromant"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 4
+	Developpement__nom "Непрерывный Злой Поток (3)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauRecuperationManaMalefique"
+	Developpement__valeur 3
+	Developpement__description	"В государстве постоянного"
+						"транса, колдуны воздействуют"
+						"непрерывным злым потоком"
+						"очень быстро, затем они могут"
+						"использовать их более мощные заклинания."
+	Developpement__nom "Интенсивность Злой Манны (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauPuissanceManaMalefique"
+	Developpement__valeur 2
+	Developpement__description	"Ценой точного"
+						"сосредоточения, колдуны"
+						"увеличивают интенсивность"
+						"своей злой манны,"
+						"наделяя заклинания мощной силой."
+	Developpement__nom "Важность Злой Манны (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauQuantiteManaMalefique"
+	Developpement__valeur 2
+	Developpement__description	"При увеличении силы"
+						"сосредоточения, изучение"
+						"важности злой манны"
+						"позволяет колдунам"
+						"более сильно выбрасывать заклинания."
+	Developpement__nom "Искоренение"
+	Developpement__prix 1250
+	Developpement__nomVariable "NiveauNE3"
+	Developpement__valeur 1
+	Developpement__description	"Определив жестом"
+						"врага, колдун"
+						"причиняет ему"
+						"ужасные страдания,"
+						"приводящие к смерти."
+Batiment__nbConstructions 0

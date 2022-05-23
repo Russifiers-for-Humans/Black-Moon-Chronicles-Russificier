@@ -1,0 +1,6 @@
+0
+А что делает Свет? Они должны были прикрывать наш правый фланг!//
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region8\\007Event2_2.txt	862
+//

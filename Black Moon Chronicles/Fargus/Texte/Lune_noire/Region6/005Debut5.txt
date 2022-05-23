@@ -1,0 +1,8 @@
+0
+Мы готовы помочь гордым Гномам отразить шквал атак Троллей.//
+
+[EVENEMENTS]	3
+ALLIANCE	1
+DEFECTION	2
+DEFECTION	3
+//

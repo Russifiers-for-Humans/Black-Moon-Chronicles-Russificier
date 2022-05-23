@@ -1,0 +1,66 @@
+Regiment__mort 0
+Regiment__nom =Висмерхилл
+Regiment__pointsAction 4
+Regiment__siegeSeul 0
+Regiment__plaine 1 0
+Regiment__foret 2 0
+Regiment__montagne 3 0
+Regiment__riviere 4 0
+Regiment__attaquer 1 0 1 0 1 0
+Regiment__rompre -1 -1 -1 -1 -1 -1
+Regiment__embuscade -1 -1 -1 -1 -1 -1
+Regiment__marcheForcee 2 0 2 0 2 0
+Regiment__defense -1 -1 -1 -1 -1 -1
+Regiment__leader -1
+Regiment__id 0
+Regiment__nbSections 5
+	Section__nom =Солдат
+	Section__numeroObjetMaitre 20
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		196 0 500 500 100 100 10 0 0
+	Section__nom =Солдат
+	Section__numeroObjetMaitre 20
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		196 0 500 500 100 100 10 0 0
+	Section__nom =Солдат
+	Section__numeroObjetMaitre 20
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		196 0 500 500 100 100 10 0 0
+	Section__nom =Лучник
+	Section__numeroObjetMaitre 13
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		196 0 500 500 100 100 10 0 0
+	Section__nom =Лучник
+	Section__numeroObjetMaitre 13
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		196 0 500 500 100 100 10 0 0

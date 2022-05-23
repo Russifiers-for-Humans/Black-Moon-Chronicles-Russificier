@@ -1,0 +1,6 @@
+0
+Я здесь, братья ветры...я слушаю Вас, дайте мне ваши мудрые слова...//
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region5\\003Victoire2.txt	928//
+

@@ -1,0 +1,105 @@
+Regiment__mort 0
+Regiment__nom =√‡„ÂÌ‰ÓÙ
+Regiment__pointsAction 4
+Regiment__siegeSeul 0
+Regiment__plaine 1 0
+Regiment__foret -1 -1
+Regiment__montagne -1 -1
+Regiment__riviere 1 0
+Regiment__attaquer 2 0 0 0 0 0
+Regiment__rompre 3 0 0 0 0 0
+Regiment__embuscade -1 -1 -1 -1 -1 -1
+Regiment__marcheForcee -1 -1 -1 -1 -1 -1
+Regiment__defense -1 -1 -1 -1 -1 -1
+Regiment__leader -1
+Regiment__id 0
+Regiment__nbSections 8
+	Section__nom =LÈviathans
+	Section__numeroObjetMaitre 16
+	Section__niveauChateau 3
+	Section__nbUnites 1
+		16 0 500 500 100 100 10 0 0
+	Section__nom =Soldats
+	Section__numeroObjetMaitre 20
+	Section__niveauChateau 3
+	Section__nbUnites 16
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		20 0 500 500 100 100 10 0 0
+		196 0 500 500 100 100 10 0 0
+	Section__nom =Archers
+	Section__numeroObjetMaitre 13
+	Section__niveauChateau 3
+	Section__nbUnites 16
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		13 0 500 500 100 100 10 0 0
+		196 0 500 500 100 100 10 0 0
+	Section__nom =Chevaliers
+	Section__numeroObjetMaitre 15
+	Section__niveauChateau 3
+	Section__nbUnites 9
+		15 0 500 500 100 100 10 0 0
+		15 0 500 500 100 100 10 0 0
+		15 0 500 500 100 100 10 0 0
+		15 0 500 500 100 100 10 0 0
+		15 0 500 500 100 100 10 0 0
+		15 0 500 500 100 100 10 0 0
+		15 0 500 500 100 100 10 0 0
+		15 0 500 500 100 100 10 0 0
+		196 0 500 500 100 100 10 0 0
+	Section__nom =Cavaliers
+	Section__numeroObjetMaitre 14
+	Section__niveauChateau 3
+	Section__nbUnites 12
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+		14 0 500 500 100 100 10 0 0
+	Section__nom =Magiciens
+	Section__numeroObjetMaitre 17
+	Section__niveauChateau 3
+	Section__nbUnites 1
+		17 0 500 500 100 100 10 0 0
+	Section__nom =PrÍtres
+	Section__numeroObjetMaitre 19
+	Section__niveauChateau 3
+	Section__nbUnites 1
+		19 0 500 500 100 100 10 0 0
+	Section__nom =Dragons
+	Section__numeroObjetMaitre 133
+	Section__niveauChateau 3
+	Section__nbUnites 1
+		133 0 500 500 100 100 10 0 0

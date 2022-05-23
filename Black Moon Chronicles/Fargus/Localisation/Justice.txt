@@ -1,0 +1,786 @@
+nbBatiments 21
+
+
+Batiment__type "Scierie"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "JUSTICE___MENUISERIE1"
+Batiment__nom "Столярная Правосудия (1)"
+Batiment__nomVariable "NiveauScierie"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauArcher"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 4
+	Developpement__nom "Таран (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauBelier"
+	Developpement__valeur 1
+	Developpement__description	"Как основной осадный механизм,"
+						"таран все же"
+						"необходимое"
+						"оружие для взятия ворот"
+						"хорошо укрепленных крепостей."
+	Developpement__nom "Катапульта (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauCatapulte"
+	Developpement__valeur 1
+	Developpement__description	"Как внушительный осадный"
+						"механизм, катапульта"
+						"разрушает мощными камнями"
+						"лучшие вражеские"
+						"укрепления."
+	Developpement__nom "Арбалет (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauArcDistance"
+	Developpement__valeur 1
+	Developpement__description	"Благодаря"
+						"открытию арбалета,"
+						"стрелки увеличивают"
+						"дальность полета"
+						"стрел луков."
+	Developpement__nom "Наука о Выравнивании (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauBois"
+	Developpement__valeur 1
+	Developpement__description	"Владение методами"
+						"выравнивания"
+						"позволяет укрепить"
+						"прочность конструкций,"
+						"в частности, осадные механизмы."
+Batiment__nbConstructions 2
+	Construction__nom "Кузница Правосудия (1)"
+	Construction__prix 300
+	Construction__typeBatiment "Forge"
+	Construction__niveauBatiment 1
+	Construction__description	"Применение"
+						"методов обработки"
+						"металла в кузнице"
+						"позволяет ковать хорошее"
+						"оружие, прочные щиты и броню."
+	Construction__nom "Конюшни Правосудия (1)"
+	Construction__prix 250
+	Construction__typeBatiment "Ecurie"
+	Construction__niveauBatiment 1
+	Construction__description	"Разводя и обучая"
+						"лошадей, конюшни"
+						"позволяют армии"
+						"иметь легкую"
+						"конницу."
+
+
+Batiment__type "Ambassade"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "JUSTICE___AMBASSADE1"
+Batiment__nom "Делегация Правосудия (1)"
+Batiment__nomVariable "NiveauAmbassade"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPorteDrapeau"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Коммерческие Методы (1)"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauCommerce"
+	Developpement__valeur 1
+	Developpement__description	"Обучение"
+						"коммерческим"
+						"методам позволяет"
+						"значительно уменьшить"
+						"оплату новичков."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Baraquement"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "JUSTICE___BARAQUE1"
+Batiment__nom "Бараки Правосудия (1)"
+Batiment__nomVariable "NiveauBaraquement"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauSoldat"
+	Possibilite__valeur 1
+	Possibilite__nomVariable "NiveauPhalange"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 0
+Batiment__nbConstructions 0
+
+
+Batiment__type "Ecurie"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "JUSTICE___ECURIE1"
+Batiment__nom "Конюшни Правосудия (1)"
+Batiment__nomVariable "NiveauEcurie"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauCavalierLeger"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Скорость Всадника"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauCavalerieVitesse"
+	Developpement__valeur 1
+	Developpement__description	"Благодаря более"
+						"усиленной подготовке,"
+						"всадники"
+						"научились увеличивать"
+						"скорость своих лошадей."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Forge"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "JUSTICE___FORGE1"
+Batiment__nom "Кузница Правосудия (1)"
+Batiment__nomVariable "NiveauForge"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 2
+	Developpement__nom "Наука о Металлах (1)"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauArmes"
+	Developpement__valeur 1
+	Developpement__description	"Благодаря изучению науки о"
+						"металлах, кузнецы научились"
+						"отбирать лучшие материалы"
+						"для изготовления оружия,"
+						"делая его более прочным и эффективным."
+	Developpement__nom "Наука о Ковке (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauArmures"
+	Developpement__valeur 1
+	Developpement__description	"Применение на"
+						"практике науки о"
+						"ковке позволяет делать"
+						"более прочную броню"
+						"и щиты."
+Batiment__nbConstructions 2
+	Construction__nom "Тренировочный Зал Правосудия (1)"
+	Construction__prix 500
+	Construction__typeBatiment "SalleArmes"
+	Construction__niveauBatiment 1
+	Construction__description	"Как первый этап в длительном"
+						"обучении, тренировочный зал"
+						"позволяет рыцарям познать"
+						"передовые методы"
+						"борьбы."
+	Construction__nom "Дом Волшебника Правосудия (1)"
+	Construction__prix 600
+	Construction__typeBatiment "TourMagiciens"
+	Construction__niveauBatiment 1
+	Construction__description	"Как место для обучения"
+						"волшебству, Дом Волшебника"
+						"обучает их первым заклинаниям"
+						"и методам"
+						"изобретательности."
+
+
+Batiment__type "SalleArmes"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "JUSTICE___SALLEARMES1"
+Batiment__nom "Тренировочный Зал Правосудия (1)"
+Batiment__nomVariable "NiveauSalleArmes"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauChevalier"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 1
+	Developpement__nom "Владение Оружием (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauVorpale"
+	Developpement__valeur 1
+	Developpement__description	"Как первый этап в обучении"
+						"передовым методам борьбы,"
+						"владение оружием"
+						"усиливает атакующую"
+						"способность рыцарей."
+Batiment__nbConstructions 0
+
+
+Batiment__type "LieuCulte"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "JUSTICE___EGLISE1"
+Batiment__nom "Часовня Правосудия (1)"
+Batiment__nomVariable "NiveauLieuCulte"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauPretre"
+	Possibilite__valeur 1
+	Possibilite__nomVariable "NiveauPR0"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 2
+	Developpement__nom "Восстановление Веры (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauRecuperationFoi"
+	Developpement__valeur 1
+	Developpement__description	"При открытии методов"
+						"восстановления веры,"
+						"священники учатся"
+						"изобретать более быстро: они"
+						"могут так чаще использовать молитвы."
+	Developpement__nom "Ваде Ретро"
+	Developpement__prix 250
+	Developpement__nomVariable "NiveauPR1"
+	Developpement__valeur 1
+	Developpement__description	"Эта молитва позволяет"
+						"священникам отпугивать"
+						"демонов, делая их"
+						"невидимыми для"
+						"мира людей."
+Batiment__nbConstructions 0
+
+
+Batiment__type "TourMagiciens"
+Batiment__niveau 1
+Batiment__nomObjetMaitre "JUSTICE___MAGIE1"
+Batiment__nom "Дом Волшебника Правосудия (1)"
+Batiment__nomVariable "NiveauTourMagiciens"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauMagicien"
+	Possibilite__valeur 1
+	Possibilite__nomVariable "NiveauMG0"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 2
+	Developpement__nom "Восстановление Манны (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauRecuperationMana"
+	Developpement__valeur 1
+	Developpement__description	"При открытии методов"
+						"восстановления манны,"
+						"волшебники учатся"
+						"изобретать более быстро: они"
+						"могут использовать так чаще молитвы."
+	Developpement__nom "Заклинание Сил Природы"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauMG1"
+	Developpement__valeur 1
+	Developpement__description	"Взывая к силам природы,"
+						"волшебники вызывают"
+						"на короткое время"
+						"сильное существо,"
+						"способное разрушать вражеские ряды."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Scierie"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "JUSTICE___MENUISERIE2"
+Batiment__nom "Плотницкая Правосудия (2)"
+Batiment__nomVariable "NiveauScierie"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauArcher"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 3
+	Developpement__nom "Катапульта (2)"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauCatapulte"
+	Developpement__valeur 2
+	Developpement__description	"Как внушительный осадный"
+						"механизм, катапульта"
+						"разрушает мощными камнями"
+						"лучшие вражеские"
+						"укрепления."
+	Developpement__nom "Суперлук (2)"
+	Developpement__prix 150
+	Developpement__nomVariable "NiveauArcPuissance"
+	Developpement__valeur 1
+	Developpement__description	"Увеличивая скорость полета "
+						"стрел, суперлук"
+						"позволяет стрелкам"
+						"наносить глубокие"
+						"раны врагам."
+	Developpement__nom "Наука Монтажа (2)"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauBois"
+	Developpement__valeur 2
+	Developpement__description	"Эти новые"
+						"методы монтажа"
+						"позволяют делать"
+						"более прочные"
+						"конструкции."
+Batiment__nbConstructions 3
+	Construction__nom "Печи Правосудия (2)"
+	Construction__prix 500
+	Construction__typeBatiment "Forge"
+	Construction__niveauBatiment 2
+	Construction__description	"Мощность печей"
+						"позволяет производить"
+						"более эффективное"
+						"оружие и хорошо"
+						"защищающие броню и щиты."
+	Construction__nom "Конезавод Правосудия (2)"
+	Construction__prix 450
+	Construction__typeBatiment "Ecurie"
+	Construction__niveauBatiment 2
+	Construction__description	"Совершенствуя методы"
+						"разведения и"
+						"обучения лошадей,"
+						"конезавод позволяет увеличить"
+						"эффективность конницы."
+	Construction__nom "Казарма Правосудия (2)"
+	Construction__prix 300
+	Construction__typeBatiment "Baraquement"
+	Construction__niveauBatiment 2
+	Construction__description	"Как бараки, казарма"
+						"используется для воспитания"
+						"и организации армии перед"
+						"кампанией. Обучать войска"
+						"лучше там."
+
+
+
+Batiment__type "Ambassade"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "JUSTICE___AMBASSADE2"
+Batiment__nom "Консульство Правосудия (2)"
+Batiment__nomVariable "NiveauAmbassade"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPorteDrapeau"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 1
+	Developpement__nom "Коммерческие Контракты (2)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauCommerce"
+	Developpement__valeur 2
+	Developpement__description	"Владение"
+						"коммерческими"
+						"контрактами позволяет"
+						"снизить стоимость сбора"
+						"и руководства армии."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Ecurie"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "JUSTICE___ECURIE2"
+Batiment__nom "Конезавод Правосудия (2)"
+Batiment__nomVariable "NiveauEcurie"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauCavalierLeger"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 1
+	Developpement__nom "Конная Атака"
+	Developpement__prix 250
+	Developpement__nomVariable "NiveauChargeCavalerie"
+	Developpement__valeur 1
+	Developpement__description	"Обучение передовым"
+						"методам верховой езды,"
+						"связанное с очень строгой"
+						"подготовкой, позволяет"
+						"всадникам провести конную атаку."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Baraquement"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "JUSTICE___BARAQUE2"
+Batiment__nom "Казарма Правосудия (2)"
+Batiment__nomVariable "NiveauBaraquement"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauSoldat"
+	Possibilite__valeur 2
+	Possibilite__nomVariable "NiveauPhalange"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 0
+Batiment__nbConstructions 0
+
+
+Batiment__type "Forge"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "JUSTICE___FORGE2"
+Batiment__nom "Печи Правосудия (2)"
+Batiment__nomVariable "NiveauForge"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 3
+	Developpement__nom "Ремень (1)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauBaliste"
+	Developpement__valeur 1
+	Developpement__description	"Разбивая осадный"
+						"механизм, ремень или"
+						"баллиста выпускают стрелы,"
+						"как огромный арбалет,"
+						"уничтожая отряды врагов."
+	Developpement__nom "Наука о Сплавах (2)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauArmes"
+	Developpement__valeur 2
+	Developpement__description	"Открытие науки о"
+						"сплавах позволяет"
+						"делать более прочное"
+						"и смертоносное"
+						"оружие."
+	Developpement__nom "Наука о Плавке Металлов (2)"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauArmures"
+	Developpement__valeur 2
+	Developpement__description	"Обучение плавке"
+						"металлов позволяет"
+						"производить более прочную"
+						"и хорошо защищающую воинов"
+						"броню."
+Batiment__nbConstructions 3
+	Construction__nom "Плац Правосудия (2)"
+	Construction__prix 950
+	Construction__typeBatiment "SalleArmes"
+	Construction__niveauBatiment 2
+	Construction__description	"На плацу рыцари"
+						"совершенствуют"
+						"методы борьбы,"
+						"что делает их достойными"
+						"противниками на поле боя."
+	Construction__nom "Школа Волшебников Правосудия (2)"
+	Construction__prix 1000
+	Construction__typeBatiment "TourMagiciens"
+	Construction__niveauBatiment 2
+	Construction__description	"Школа волшебников"
+						"учит их новым"
+						"заклинаниям и"
+						"как управлять лучше"
+						"источником своей энергии."
+	Construction__nom "Церковь Правосудия (2)"
+	Construction__prix 1000
+	Construction__typeBatiment "LieuCulte"
+	Construction__niveauBatiment 2
+	Construction__description	"Святое здание, поощряющее"
+						"молитвы и созерцание,"
+						"церковь позволяет священникам"
+						"усилить свою веру и"
+						"изучить новые молитвы."
+
+
+Batiment__type "SalleArmes"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "JUSTICE___SALLEARMES2"
+Batiment__nom "Плац Правосудия (2)"
+Batiment__nomVariable "NiveauSalleArmes"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauChevalier"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 2
+	Developpement__nom "Тайный Ботинок (2)"
+	Developpement__prix 450
+	Developpement__nomVariable "NiveauVorpale"
+	Developpement__valeur 2
+	Developpement__description	"Используя тайный"
+						"ботинок, рыцари"
+						"часто добиваются"
+						"преимущества над"
+						"врагом в рукопашном бою."
+	Developpement__nom "Ярость Паладина"
+	Developpement__prix 700
+	Developpement__nomVariable "NiveauFurieChevalier"
+	Developpement__valeur 1
+	Developpement__description	"Когда битва кажется"
+						"проигранной, ярость"
+						"Паладинов дает им"
+						"второе дыхание, позволяющее"
+						"изменить исход битвы."
+Batiment__nbConstructions 0
+
+
+Batiment__type "LieuCulte"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "JUSTICE___EGLISE2"
+Batiment__nom "Церковь Правосудия (2)"
+Batiment__nomVariable "NiveauLieuCulte"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauPretre"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 5
+	Developpement__nom "Религиозная Страсть (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauRecuperationFoi"
+	Developpement__valeur 2
+	Developpement__description	"Религиозная страсть"
+						"улучшает способность"
+						"священников в изобретательности;"
+						"они становятся важными элементами"
+						"на поле боя."
+	Developpement__nom "Сила Веры (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauPuissanceFoi"
+	Developpement__valeur 1
+	Developpement__description	"Совершенствуя"
+						"силу веры, священники"
+						"увеличивают"
+						"силу своих"
+						"молитв."
+	Developpement__nom "Величие Веры (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauQuantiteFoi"
+	Developpement__valeur 1
+	Developpement__description	"Благодаря их изучению"
+						"величия веры"
+						"священники дают"
+						"возможность использовать"
+						"их молитвы чаще."
+	Developpement__nom "Благословление"
+	Developpement__prix 400
+	Developpement__nomVariable "NiveauPR2"
+	Developpement__valeur 1
+	Developpement__description	"Благословляя войска,"
+						"священник восстанавливает"
+						"их силу и мужество."
+						"Кроме того, он защищает"
+						"их от проклятий."
+	Developpement__nom "Воскрешение"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauPR3"
+	Developpement__valeur 1
+	Developpement__description	"Читая эту молитву"
+						"священник может"
+						"возвратить к жизни"
+						"солдата, погибшего"
+						"на поле битвы."
+Batiment__nbConstructions 0
+
+
+Batiment__type "TourMagiciens"
+Batiment__niveau 2
+Batiment__nomObjetMaitre "JUSTICE___MAGIE2"
+Batiment__nom "Школа Волшебника Империи (2)"
+Batiment__nomVariable "NiveauTourMagiciens"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauMagicien"
+	Possibilite__valeur 2
+Batiment__nbDeveloppements 4
+	Developpement__nom "Волшебная Страсть (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauRecuperationMana"
+	Developpement__valeur 2
+	Developpement__description	"Волшебная страсть"
+						"улучшает способность"
+						"волшебников в изобретательности."
+						"Они становятся важными"
+						"элементами на поле битвы."
+	Developpement__nom "Сила Манны (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauPuissanceMana"
+	Developpement__valeur 1
+	Developpement__description	"Совершенствуя"
+						"силу манны,"
+						"волшебники увеличивают"
+						"силу своих"
+						"заклинаний."
+	Developpement__nom "Величие Манны (1)"
+	Developpement__prix 100
+	Developpement__nomVariable "NiveauQuantiteMana"
+	Developpement__valeur 1
+	Developpement__description	"Изучая величие манны,"
+						"волшебники могут"
+						"использовать"
+						"свои заклинания"
+						"чаще."
+	Developpement__nom "Божественная Молния"
+	Developpement__prix 1250
+	Developpement__nomVariable "NiveauMG2"
+	Developpement__valeur 1
+	Developpement__description	"Разрушая ударом врага,"
+						"божественная молния"
+						"забирает жизненную"
+						"энергию, оставляя его"
+						"обессиленным на поле битвы."
+Batiment__nbConstructions 0
+
+
+Batiment__type "Scierie"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "JUSTICE___MENUISERIE3"
+Batiment__nom "Столярная Краснодеревщика Правосудия (3)"
+Batiment__nomVariable "NiveauScierie"
+Batiment__estDeBase 1
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauArcher"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 2
+	Developpement__nom "Меткий Лук (3)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauArcPrecision"
+	Developpement__valeur 1
+	Developpement__description	"Вместе с арбалетом"
+						"и суперлуком, меткий лук"
+						"дает стрелкам"
+						"грозное, точное и"
+						"эффективное оружие."
+	Developpement__nom "Наука о Ценной Древесине (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauBois"
+	Developpement__valeur 3
+	Developpement__description	"Благодаря открытию необычных"
+						"свойств ценной древесины,"
+						"краснодеревщик"
+						"делает более прочные"
+						"осадные механизмы."
+Batiment__nbConstructions 2
+	Construction__nom "Литейный Завод Правосудия (3)"
+	Construction__prix 750
+	Construction__typeBatiment "Forge"
+	Construction__niveauBatiment 3
+	Construction__description	"Овладев высокими температурами"
+						"и пользуясь последними"
+						"открытиями в сплавах,"
+						"литейный завод позволяет производить"
+						"внушительное оружие и очень прочную броню и щиты."
+	Construction__nom "Помещения Правосудия (3)"
+	Construction__prix 400
+	Construction__typeBatiment "Baraquement"
+	Construction__niveauBatiment 3
+	Construction__description	"Только помещения"
+						"имеют инфраструктуру,"
+						"необходимую для подготовки"
+						"и проживания элитных войск,"
+						"гарантируя более сильную армию в кампании."
+
+
+Batiment__type "Baraquement"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "JUSTICE___BARAQUE3"
+Batiment__nom "Помещения Правосудия (3)"
+Batiment__nomVariable "NiveauBaraquement"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauSoldat"
+	Possibilite__valeur 3
+	Possibilite__nomVariable "NiveauPhalange"
+	Possibilite__valeur 3
+
+Batiment__nbDeveloppements 0
+Batiment__nbConstructions 0
+
+
+Batiment__type "Forge"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "JUSTICE___FORGE3"
+Batiment__nom "Литейный Завод Правосудия (3)"
+Batiment__nomVariable "NiveauForge"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 0
+Batiment__nbDeveloppements 2
+	Developpement__nom "Литейное Искусство (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauArmes"
+	Developpement__valeur 3
+	Developpement__description	"Обучение литейному"
+						"искусству позволяет"
+						"совершенствовать оружие"
+						"до гораздо более"
+						"эффективного в бою."
+	Developpement__nom "Искусство Ковки Брони (3)"
+	Developpement__prix 600
+	Developpement__nomVariable "NiveauArmures"
+	Developpement__valeur 3
+	Developpement__description	"Совершенствуя искусство"
+						"ковки брони, кузнецы"
+						"используют ноу-хау"
+						"для создания брони"
+						"более легкой и очень прочной."
+Batiment__nbConstructions 2
+	Construction__nom "Военная Академия Правосудия (3)"
+	Construction__prix 1500
+	Construction__typeBatiment "SalleArmes"
+	Construction__niveauBatiment 3
+	Construction__description	"Изучая основные методы"
+						"борьбы, военная академия"
+						"завершает подготовку"
+						"рыцарей, делая"
+						"их незаурядными воинами."
+	Construction__nom "Собор Правосудия (3)"
+	Construction__prix 2000
+	Construction__typeBatiment "LieuCulte"
+	Construction__niveauBatiment 3
+	Construction__description	"Грандиозное подтверждение"
+						"страсти священников к Ордену"
+						"Правосудия, Собор позволяет"
+						"усилить их веру, открывая"
+						"доступ к могущественным молитвам."
+
+
+Batiment__type "SalleArmes"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "JUSTICE___SALLEARMES3"
+Batiment__nom "Военная Академия Правосудия (3)"
+Batiment__nomVariable "NiveauSalleArmes"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 1
+	Possibilite__nomVariable "NiveauChevalier"
+	Possibilite__valeur 3
+Batiment__nbDeveloppements 1
+	Developpement__nom "Искусство Смертельного Удара (3)"
+	Developpement__prix 900
+	Developpement__nomVariable "NiveauVorpale"
+	Developpement__valeur 3
+	Developpement__description	"Сохранив элитных воинов,"
+						"обучение искусству "
+						"смертельного удара позволяет"
+						"им уничтожать войска врага"
+						"одним ударом своих мечей."
+Batiment__nbConstructions 0
+
+
+Batiment__type "LieuCulte"
+Batiment__niveau 3
+Batiment__nomObjetMaitre "JUSTICE___EGLISE3"
+Batiment__nom "Собор Правосудия (3)"
+Batiment__nomVariable "NiveauLieuCulte"
+Batiment__estDeBase 0
+Batiment__nbPossibilites 2
+	Possibilite__nomVariable "NiveauPretre"
+	Possibilite__valeur 3
+	Possibilite__nomVariable "NiveauPR6"
+	Possibilite__valeur 1
+Batiment__nbDeveloppements 5
+	Developpement__nom "Постоянная Вера(3)"
+	Developpement__prix 300
+	Developpement__nomVariable "NiveauRecuperationFoi"
+	Developpement__valeur 3
+	Developpement__description	"В государстве постоянного "
+						"транса священники воздействуя"
+						"постоянной верой, изобретают"
+						"очень быстро, затем они могут"
+						"использовать более сильные молитвы."
+	Developpement__nom "Интенсивность Веры (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauPuissanceFoi"
+	Developpement__valeur 2
+	Developpement__description	"Ценой точного сосредоточения,"
+						"священники увеличивают"
+						"интенсивность своей веры"
+						"наделяя молитвы"
+						"неограниченной силой."
+	Developpement__nom "Важность Веры (2)"
+	Developpement__prix 200
+	Developpement__nomVariable "NiveauQuantiteFoi"
+	Developpement__valeur 2
+	Developpement__description	"При увеличении силы"
+						"сосредоточения, изучение важности"
+						"веры позволяет священнику"
+						"более энергично"
+						"читать молитвы."
+	Developpement__nom "Последний Приговор"
+	Developpement__prix 850
+	Developpement__nomVariable "NiveauPR4"
+	Developpement__valeur 1
+	Developpement__description	"Вынося последний приговор,"
+						"священник вызывает гнев бога"
+						"против врагов: столб воды из-под"
+						"земли разбрасывает стрелы"
+						"по полю битвы."
+	Developpement__nom "Возвращение к Богу"
+	Developpement__prix 1250
+	Developpement__nomVariable "NiveauPR5"
+	Developpement__valeur 1
+	Developpement__description	"Жертвуя своей жизнью,"
+						"священник отрекается от земного"
+						"и занимает место рядом с богом."
+						"При возвращении бог защищает"
+						"армию в битве."
+Batiment__nbConstructions 0

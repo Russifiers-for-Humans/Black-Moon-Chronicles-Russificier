@@ -1,0 +1,9 @@
+0
+—мерть Ёльфам раз и навсегда!//
+
+[EVENEMENTS]	4
+DEFECTION	1
+ALLIANCE	2
+DEFECTION	3
+DEFECTION	4
+//

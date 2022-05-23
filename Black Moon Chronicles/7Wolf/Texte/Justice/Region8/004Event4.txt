@@ -1,0 +1,6 @@
+0
+Барон - Предатель, я бросаю Вам вызов...если Вы не трус! //
+
+[EVENEMENTS]	1
+REQUESTER ..\\Texte\\Justice\\Region8\\004Event5.txt	858//
+

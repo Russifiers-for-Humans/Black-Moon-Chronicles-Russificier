@@ -1,0 +1,27 @@
+[SECTIONS] 11
+"Солдат"	"LUMIERE___SOLDAT"	"NiveauSoldat"		50	3	4	0	1PA	2PA	3PA	4PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	2PA 2PA 2PA 	 -   -   - 
+"Фаланга"	"LUMIERE___PHALANGE"	"NiveauPhalange"	48	5	4	0	1PA	2PA	3PA	4PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	2PA 2PA 2PA 	 -   -   - 
+"Лучник"	"LUMIERE___ARCHER"	"NiveauArcher"		45	4	4	0	1PA	2PA	3PA	4PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	2PA 2PA 2PA 	 -   -   - 
+"Рыцарь"	"LUMIERE___CHEVALIER"	"NiveauChevalier"	46	3	6	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	3PA 3PA 3PA 	 -   -   -  
+"Всадник"	"LUMIERE___CAVALERIE"	"NiveauCavalierLeger"	53	3	6	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	3PA 3PA 3PA 	 -   -   - 
+"Маг"	"LUMIERE___MAGICIEN"	"NiveauMagicien"	47	6	5	0	1PA	2PA	3PA	2PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	1PA 1PA 1PA 	 -   -   - 
+"Священник"	"LUMIERE___PRETRE"	"NiveauPretre"		49	6	5	0	1PA	2PA	3PA	2PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	1PA 1PA 1PA 	 -   -   - 
+"Катапульта"	"MACHINE___CATAPULTE"	"NiveauCatapulte"	67	2	4	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	 -   -   -  	 -   -   - 
+"Баллиста"	"MACHINE___BALISTE"	"NiveauBaliste"		66	1	4	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	 -   -   -  	 -   -   - 
+"Таран"	"MACHINE___BELIER"	"NiveauBelier"		78	2	4	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	 -   -   -  	 -   -   - 
+"Дракон"	"LUMIERE___DRAGON"	"NiveauMG1"		68	7	9	0	1PA	1PA	1PA	1PA	1PA 1PA 1PA	 -   -   - 	 -   -   - 	 -   -   -  	 -   -   - 
+
+
+[UNITES] 12
+"Солдат"	"LUMIERE___SOLDAT"	"NiveauSoldat"		50	3	0	1	1
+"Фаланга"	"LUMIERE___PHALANGE"	"NiveauPhalange"	48	5	1	1	1
+"Лучник"	"LUMIERE___ARCHER"	"NiveauArcher"		45	4	2	1	1
+"Рыцарь"	"LUMIERE___CHEVALIER"	"NiveauChevalier"	46	3	3	1	1
+"Всадник"	"LUMIERE___CAVALERIE"	"NiveauCavalierLeger"	53	3	4	1	1
+"Маг"	"LUMIERE___MAGICIEN"	"NiveauMagicien"	47	6	5	1	1
+"Священник"	"LUMIERE___PRETRE"	"NiveauPretre"		49	6	6	1	1
+"Катапульта"	"MACHINE___CATAPULTE"	"NiveauCatapulte"	67	2	7	1	1
+"Баллиста"	"MACHINE___BALISTE"	"NiveauBaliste"		66	1	8	1	1
+"Таран"	"MACHINE___BELIER"	"NiveauBelier"		78	2	9	1	1
+"Дракон"	"LUMIERE___DRAGON"	"NiveauMG1"		68	7	10	1	1	
+"Знаменосец"	"LUMIERE___PD"		""			51	3	0	1	0

@@ -1,0 +1,5 @@
+0
+јга, вот и вы, дети мои. я вас ждал!...//
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\007Event2_1.txt	860//

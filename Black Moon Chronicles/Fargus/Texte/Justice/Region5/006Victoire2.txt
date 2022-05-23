@@ -1,0 +1,5 @@
+0
+Висмерхилл, Висмерхилл, мы ждем тебя...//
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region5\\006Victoire3.txt	865//

@@ -1,0 +1,8 @@
+0
+тогда мы уладим это дело при помощи меча и огня! Да будет так!//
+
+[EVENEMENTS]	3
+DEFECTION	1
+DEFECTION	2
+DEFECTION	3
+//

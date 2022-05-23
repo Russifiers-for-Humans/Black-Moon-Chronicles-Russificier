@@ -1,0 +1,5 @@
+0
+Я надеюсь на это, Принц, но Свет может начать в свою очередь братоубийственную войну!//
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region8\\RegionDebut3.txt	860//

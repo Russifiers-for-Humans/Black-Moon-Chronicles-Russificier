@@ -1,0 +1,75 @@
+NOM                           Парсифал
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          9
+TAILLE                        2
+[ANIMATION]
+ANIM__DPL                     PARSIFAL_DPL 8 12
+ANIM__ARA                     PARSIFAL_ARE 8 12
+ANIM__ARE                     PARSIFAL_DRE 8 12
+ANIM__DRA                     PARSIFAL_ARE 8 12
+ANIM__DRE                     PARSIFAL_DRE 8 12
+ANIM__SPL                     PARSIFAL_DPL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     PARSIFAL_ASP 8 12
+ANIM__SPJ                     PARSIFAL_ASP 8 12
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     PARSIFAL_MOR 4 12
+ANIM__MOR                     PARSIFAL_MOR 4 12
+ANIM__MOV                     PARSIFAL_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         A
+ENERGIE                       3500
+FEU_ENERGIE__MAX              0
+VITESSE                       4
+NIVEAU                        1
+SORT1_IMAGE1                  SOINS
+SORT2_IMAGE2                  BENEDICTION_DIVINE
+SORT3_OMBRE                   -
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        GUERRIER
+MANA                          90
+MANA__MAX                     90
+FORCE                         700
+REGENERATION                  0
+POISON                        -
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             -
+V                             -
+B                             -
+ENERGIE_PAR_NIV               0
+FORCE_PAR_NIV                 0
+SELECTION 			1080 1081 1080 1081
+DEPLACEMENT 			1082 1081 1082 1082
+ATTAQUE 			1083 1082 1083 1080
+.
+[BESTIAIRE]
+DESCRIPTION                   Принц Парсифал из Сисигии - великий господин Правосудия. Этот паладин с чистым сердцем - исключительный боец, исполненный необычного религиозного усердия. В битве он использует тяжелый обоюдоострый меч, пробивающий любую броню.
+ARMES                         Божественный меч
+PA                            -
+DPL_PLAINE                    -
+DPL_FORET                     -
+DPL_MONTAGNE                  -
+DPL_RIVIERE                   -
+ATTAQUE                       -
+ROMPRE                        -
+EMBUSCADE                     -
+MARCHE_FORCEE                 -
+FORTIFICATION                 -
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

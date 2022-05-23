@@ -1,0 +1,21 @@
+Regiment__mort 0
+Regiment__nom =Висмерхилл
+Regiment__pointsAction 5
+Regiment__siegeSeul 0
+Regiment__plaine 1 0
+Regiment__foret 2 0
+Regiment__montagne 3 0
+Regiment__riviere 4 0
+Regiment__attaquer 1 0 1 0 1 0
+Regiment__rompre -1 -1 -1 -1 -1 -1
+Regiment__embuscade -1 -1 -1 -1 -1 -1
+Regiment__marcheForcee 2 0 2 0 2 0
+Regiment__defense -1 -1 -1 -1 -1 -1
+Regiment__leader -1
+Regiment__id 0
+Regiment__nbSections 1
+	Section__nom =Wismerhill
+	Section__numeroObjetMaitre 5
+	Section__niveauChateau 1
+	Section__nbUnites 1
+		5 0 1000 1000 0 0 2 0 0

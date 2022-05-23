@@ -1,0 +1,6 @@
+0
+ОООО!!! ААА! У нас кишки выпущены!!//
+
+[EVENEMENTS]	1
+REQUESTER ..\\Texte\\Justice\\Region5\\002Event2.txt	866
+//

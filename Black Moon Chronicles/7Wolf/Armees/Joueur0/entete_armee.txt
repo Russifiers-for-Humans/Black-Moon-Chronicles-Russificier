@@ -1,0 +1,2 @@
+nbRegiments 1
+

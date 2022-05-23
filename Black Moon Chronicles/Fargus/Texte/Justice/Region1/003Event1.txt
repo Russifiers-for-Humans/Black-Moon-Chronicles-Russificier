@@ -1,0 +1,5 @@
+0
+Ёй... Ѕлизко не подходить, а то мы как вдарим тебе по башке!...//
+
+[EVENEMENTS]	1
+REQUESTER ..\\Texte\\Justice\\Region1\\003Event2.txt	854//

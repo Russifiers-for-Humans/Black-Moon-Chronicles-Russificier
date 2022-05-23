@@ -1,0 +1,7 @@
+0
+OOHAAARRRHH, мне нужны ваши кишки для подвязок!! //
+
+[EVENEMENTS]	1
+REQUESTER ..\\Texte\\Justice\\Region5\\002Event2.txt	866
+//
+

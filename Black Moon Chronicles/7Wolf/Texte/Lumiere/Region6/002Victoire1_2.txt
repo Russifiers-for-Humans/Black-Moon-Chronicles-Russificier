@@ -1,0 +1,12 @@
+0
+Поздравляю вас с мудрым выбором. Вы не пожалеете! Эти войска, которые вы потребовали, будут доставлены вам к следующей битве. До скорого, Лорд!//
+
+[EVENEMENTS]	6
+PERTES_OR	2000
+GAINS_UNITES	139	1	1
+GAINS_UNITES	141	2	1
+GAINS_UNITES	47	1	1
+GAINS_UNITES	45	3	1
+REQUESTER	..\\Texte\\Lumiere\\Region6\\002Victoire1_1_1.txt	862
+//
+

@@ -1,0 +1,76 @@
+NOM                           Элементаль_Огня
+FAMILLE                       ANGE
+UNITE_COMBATTANTE             1
+CAMP                          8
+TAILLE                        2
+[ANIMATION]
+ANIM__DPL                     FEU_DPL 8 12
+ANIM__ARA                     FEU_ARE 8 12
+ANIM__ARE                     FEU_ARE 8 12
+ANIM__DRA                     FEU_ARE 8 12
+ANIM__DRE                     FEU_ARE 8 12
+ANIM__SPL                     FEU_SPL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     FEU_ARE 8 12
+ANIM__SPJ                     FEU_ARE 8 12
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     FEU_MOR 4 12
+ANIM__MOR                     FEU_MOR 4 12
+ANIM__MOV                     FEU_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         A
+ENERGIE                       500
+FEU_ENERGIE__MAX              2
+VITESSE                       5
+NIVEAU                        1
+SORT1_IMAGE1                  BOULE_DE_FEU
+SORT2_IMAGE2                  -
+SORT3_OMBRE                   -
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        MAGICIEN
+MANA                          50
+MANA__MAX                     50
+FORCE                         85
+REGENERATION                  0
+POISON                        I
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             -
+V                             -
+B                             -
+ENERGIE_PAR_NIV               80
+FORCE_PAR_NIV                 8
+SELECTION 			800 800 800 800
+DEPLACEMENT 			800 800 800 800
+ATTAQUE 			800 800 800 800
+.
+REPALETTAGE                   0
+[BESTIAIRE]
+DESCRIPTION                   Элементали - создания, которые являются силами природы. Огненный элементаль призван властью магов Света. Он состоит из живого огня.
+ARMES                         Огненные Стены
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     3
+DPL_MONTAGNE                  2
+DPL_RIVIERE                   5
+ATTAQUE                       1
+ROMPRE                        2
+EMBUSCADE                     2
+MARCHE_FORCEE                 2
+FORTIFICATION                 2
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

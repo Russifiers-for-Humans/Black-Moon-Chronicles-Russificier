@@ -1,0 +1,75 @@
+NOM                           Хеллаена
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          9
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     DEMON___SUCCUBE_DPL 8 12
+ANIM__ARA                     DEMON___SUCCUBE_ARE 8 12
+ANIM__ARE                     DEMON___SUCCUBE_ARE 8 12
+ANIM__DRA                     DEMON___SUCCUBE_ARE 8 12
+ANIM__DRE                     DEMON___SUCCUBE_ARE 8 12
+ANIM__SPL                     DEMON___SUCCUBE_SPL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     DEMON___SUCCUBE_SIN
+ANIM__SPJ                     DEMON___SUCCUBE_SPJ
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     DEMON___SUCCUBE_VOR
+ANIM__MOR                     DEMON___SUCCUBE_MOR
+ANIM__MOV                     DEMON___SUCCUBE_MOR
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         C
+ENERGIE                       1500
+FEU_ENERGIE__MAX              2
+VITESSE                       2
+NIVEAU                        1
+SORT1_IMAGE1                  BOULE_DE_FEU
+SORT2_IMAGE2                  TELEPORTATION
+SORT3_OMBRE                   POLYMORPHE
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        MAGICIEN
+MANA                          50
+MANA__MAX                     50
+FORCE                         1000
+REGENERATION                  1
+POISON                        I
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             18
+V                             23
+B                             7
+ENERGIE_PAR_NIV               0
+FORCE_PAR_NIV                 0
+SELECTION 			620 621 620 621
+DEPLACEMENT 			622 621 622 620
+ATTAQUE 			623 621 623 620
+.
+[BESTIAIRE]
+DESCRIPTION                   Хеллаена - суккубус, заключившая договор с Висмерхиллом. Она обеспечивает его ближнюю защиту. В сражении, она использует все ее чары и способности одерживать победу над врагами.
+ARMES                         Чары
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     3
+DPL_MONTAGNE                  2
+DPL_RIVIERE                   5
+ATTAQUE                       1
+ROMPRE                        2
+EMBUSCADE                     2
+MARCHE_FORCEE                 2
+FORTIFICATION                 2
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

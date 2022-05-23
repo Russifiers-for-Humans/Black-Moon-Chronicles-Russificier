@@ -1,0 +1,23 @@
+[SECTIONS] 9
+"Орк"		"LUNE_NOIRE___ORC"		"NiveauOrc"		37	3	4	0	1PA	2PA	3PA	4PA	1PA 1PA 1PA	 -   -   - 	-   -   - 	2PA 2PA 2PA 	 -   -   - 
+"Всадник"	"LUNE_NOIRE___CAVALERIE"	"NiveauCavalierLeger"	42	3	9	0	1PA	4PA	4PA  	4PA	1PA 1PA 1PA	 -   -   - 	-   -   - 	4PA 4PA 4PA 	 -   -   - 
+"Священник"	"LUNE_NOIRE___PRETRE"		"NiveauPretre"		43	6	5	0	1PA	2PA	3PA	2PA	1PA 1PA 1PA	 -   -   - 	-   -   - 	1PA 1PA 1PA 	 -   -   - 
+"Неромант"	"LUNE_NOIRE___NECROMANT"	"NiveauNecromant"	36	6	5	0	1PA	2PA	3PA	2PA	1PA 1PA 1PA	 -   -   - 	-   -   - 	1PA 1PA 1PA 	 -   -   - 
+"Троль"		"LUNE_NOIRE___TROLL"		"NiveauTroll"		38	7	5	0	1PA	3PA	4PA 	4PA	1PA 1PA 1PA	 -   -   - 	-   -   - 	2PA 2PA 2PA 	 -   -   - 
+"Гигант"		"LUNE_NOIRE___GEANT"		"NiveauGeant"		35	7	5	0	1PA	3PA	4PA	4PA	1PA 1PA 1PA	 -   -   - 	-   -   - 	2PA 2PA 2PA 	 -   -   - 
+"Катапульта"	"MACHINE___CATAPULTE"		"NiveauCatapulte"	67	2	4	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   - 	-   -   - 	 -   -   - 	 -   -   - 
+"Баллиста"	"MACHINE___BALISTE"		"NiveauBaliste"		66	1	4	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   - 	-   -   - 	 -   -   - 	 -   -   - 
+"Таран"	"MACHINE___BELIER"		"NiveauBelier"		78	2	4	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   - 	-   -   - 	 -   -   - 	 -   -   - 
+
+[UNITES] 10
+"Орк"		"LUNE_NOIRE___ORC"		"NiveauOrc"		37	3	0	1	1
+"Всадник"	"LUNE_NOIRE___CAVALERIE"	"NiveauCavalierLeger"	42	3	1	1	1
+"Священник"	"LUNE_NOIRE___PRETRE"		"NiveauPretre"		43	6	2	1	1
+"Неромант"	"LUNE_NOIRE___NECROMANT"	"NiveauNecromant"	36	6	3	1	1
+"Троль"		"LUNE_NOIRE___TROLL"		"NiveauTroll"		38	7	4	1	1
+"Гигант"		"LUNE_NOIRE___GEANT"		"NiveauGeant"		35	7	5	1	1
+"Катапульта"	"MACHINE___CATAPULTE"		"NiveauCatapulte"	67	2	6	1	1
+"Баллиста"	"MACHINE___BALISTE"		"NiveauBaliste"		66	1	7	1	1
+"Таран"	"MACHINE___BELIER"		"NiveauBelier"		78	2	8	1	1
+"Знаменосец"	"LUNE_NOIRE___PD"		""			41	3	0	1	0
+

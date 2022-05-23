@@ -1,0 +1,75 @@
+NOM                           Суккубус
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          7
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     DEMON___SUCCUBE_DPL 8 12
+ANIM__ARA                     DEMON___SUCCUBE_ARE 8 12
+ANIM__ARE                     DEMON___SUCCUBE_ARE 8 12
+ANIM__DRA                     DEMON___SUCCUBE_ARE 8 12
+ANIM__DRE                     DEMON___SUCCUBE_ARE 8 12
+ANIM__SPL                     DEMON___SUCCUBE_SPL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     DEMON___SUCCUBE_SIN 8 12
+ANIM__SPJ                     DEMON___SUCCUBE_SPJ 8 12
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     DEMON___SUCCUBE_VOR 8 12
+ANIM__MOR                     DEMON___SUCCUBE_MOR 8 12
+ANIM__MOV                     DEMON___SUCCUBE_MOR 8 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         B
+ENERGIE                       666
+FEU_ENERGIE__MAX              1
+VITESSE                       1
+NIVEAU                        1
+SORT1_IMAGE1                  BOULE_DE_FEU
+SORT2_IMAGE2                  TELEPORTATION
+SORT3_OMBRE                   -
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        DEMON
+MANA                          50
+MANA__MAX                     50
+FORCE                         66
+REGENERATION                  0
+POISON                        -
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             15
+V                             0
+B                             0
+ENERGIE_PAR_NIV               66
+FORCE_PAR_NIV                 66
+SELECTION 			620 621 620 621
+DEPLACEMENT 			622 621 622 620
+ATTAQUE 			623 621 623 620
+.
+[BESTIAIRE]
+DESCRIPTION                   Суккубус - демон женского пола. Она могущественна, обладает физической силой и мощными заклинаниями. Кроме того, она заманивает врагов, очаровывая их, а потом убивает их мучительной смертью.
+ARMES                         Шарм
+PA                            -
+DPL_PLAINE                    -
+DPL_FORET                     -
+DPL_MONTAGNE                  -
+DPL_RIVIERE                   -
+ATTAQUE                       -
+ROMPRE                        -
+EMBUSCADE                     -
+MARCHE_FORCEE                 -
+FORTIFICATION                 -
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

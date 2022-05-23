@@ -1,0 +1,6 @@
+0
+Хехе...Не подходи ближе, а то пожалеешь!...//
+
+[EVENEMENTS]	1
+REQUESTER ..\\Texte\\Justice\\Region1\\003Event2.txt	854//
+

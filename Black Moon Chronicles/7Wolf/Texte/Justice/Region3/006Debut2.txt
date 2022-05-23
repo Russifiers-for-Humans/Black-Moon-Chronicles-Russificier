@@ -1,0 +1,6 @@
+0
+Кто там? Отец, скажи, я молю тебя! //
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\006Debut3.txt	926//
+

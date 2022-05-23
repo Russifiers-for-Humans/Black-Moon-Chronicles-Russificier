@@ -1,0 +1,26 @@
+[SECTIONS] 10
+"Палладин"	"JUSTICE___PALADIN"	"NiveauChevalier"	32	3	7	0	1PA	3PA	4PA	4PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	5PA 5PA 5PA 	 -   -   - 
+"Лучник"	"JUSTICE___ARCHER"	"NiveauArcher"		27	4	4	0	1PA	2PA	3PA	4PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	2PA 2PA 2PA 	 -   -   - 
+"Фаланга"	"JUSTICE___PHALANGE"	"NiveauPhalange"	29	5	4	0	1PA	2PA	3PA	4PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	2PA 2PA 2PA 	 -   -   - 
+"Маг"	"JUSTICE___MAGICIEN"	"NiveauMagicien"	28	6	5	0	1PA	2PA	3PA	2PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	1PA 1PA 1PA 	 -   -   - 
+"Всадник"	"JUSTICE___CAVALERIE"	"NiveauCavalierLeger"	33	3	9	0	1PA	4PA	4PA 	4PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	4PA 4PA 4PA	 -   -   -  
+"Священник"	"JUSTICE___PRETRE"	"NiveauPretre"		34	6	5	0	1PA	2PA	3PA	2PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	1PA 1PA 1PA 	 -   -   - 
+"Архангел"	"JUSTICE___ARCHANGE"	"NiveauPR6"		26	7	10	0	1PA	1PA	1PA	1PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	 -   -   - 	 -   -   - 
+"Катапульта"	"MACHINE___CATAPULTE"	"NiveauCatapulte"	67	2	4	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	 -   -   - 	 -   -   - 
+"Баллиста"	"MACHINE___BALISTE"	"NiveauBaliste"		66	1	4	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	 -   -   - 	 -   -   - 
+"Таран"	"MACHINE___BELIER"	"NiveauBelier"		78	2	4	0	1PA	4PA	4PA	4PA	1PA 1PA 1PA	 -   -   -	 -   -   -  	 -   -   - 	 -   -   - 
+
+
+[UNITES] 11
+"Палладин"	"JUSTICE___PALADIN"	"NiveauChevalier"	32	3	0	1	1	
+"Лучник"	"JUSTICE___ARCHER"	"NiveauArcher"		27	4	1	1	1
+"Фаланга"	"JUSTICE___PHALANGE"	"NiveauPhalange"	29	5	2	1	1
+"Маг"	"JUSTICE___MAGICIEN"	"NiveauMagicien"	28	6	3	1	1
+"Всадник"	"JUSTICE___CAVALERIE"	"NiveauCavalierLeger"	33	3	4	1	1
+"Священник"	"JUSTICE___PRETRE"	"NiveauPretre"		34	6	5	1	1
+"Архангел"	"JUSTICE___ARCHANGE"	"NiveauPR6"		26	7	6	1	1
+"Катапульта"	"MACHINE___CATAPULTE"	"NiveauCatapulte"	67	2	7	1	1
+"Баллиста"	"MACHINE___BALISTE"	"NiveauBaliste"		66	1	8	1	1
+"Таран"	"MACHINE___BELIER"	"NiveauBelier"		78	2	9	1	1
+"Знаменосец"	"JUSTICE___PD"		""			30	3	0	1	0
+

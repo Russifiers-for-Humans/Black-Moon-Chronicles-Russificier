@@ -1,0 +1,6 @@
+0
+Спасибо за вашу помощь, Вы действительно знаете, как обращаться с оружием! //
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region5\\005Victoire2.txt	865//
+

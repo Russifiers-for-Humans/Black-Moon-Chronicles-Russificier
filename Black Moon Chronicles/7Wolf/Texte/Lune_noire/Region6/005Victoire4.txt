@@ -1,0 +1,7 @@
+0
+Это - превосходный выбор. Все это оружие конечно принесут Вам победу! //
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Lune_noire\\Region6\\005Victoire5.txt	869
+//
+

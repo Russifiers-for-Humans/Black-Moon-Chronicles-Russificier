@@ -1,0 +1,5 @@
+0
+Предатель Барон, я вызываю тебя... Выходи на бой, если не трус!//
+
+[EVENEMENTS]	1
+REQUESTER ..\\Texte\\Justice\\Region8\\004Event5.txt	858//

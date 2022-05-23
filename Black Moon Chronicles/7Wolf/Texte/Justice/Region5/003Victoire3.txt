@@ -1,0 +1,6 @@
+0
+Это - радость для меня, получить этот символ нашего союза. //
+
+[EVENEMENTS]			1
+REQUESTER ..\\Texte\\Justice\\Region5\\003Victoire4.txt	928//
+

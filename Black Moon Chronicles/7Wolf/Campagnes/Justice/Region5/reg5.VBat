@@ -1,0 +1,75 @@
+//Coordonnées de la caméra au début de la mission
+[DEPART]
+64
+64
+
+
+//Nom de la mission.
+//Si il n'y en a pas, mettre un -
+[NOM_MISSION]
+-
+
+
+//Temps en secondes avant de declencher l'ia
+[IA_DECLENCHEMENT]
+10
+
+
+[ATTAQUE_NEUTRE]
+0 1 1 1 1
+1 0 1 1 1
+1 1 0 1 1		
+1 1 1 0 1
+1 1 1 1 0
+
+[CIBLAGE_NEUTRE]
+0 1 1 1 1
+1 0 1 1 1
+1 1 0 1 1		
+1 1 1 0 1
+0 0 0 0 0
+
+
+[CIBLES_FAVORITES]
+10 10 10 10 10
+10 10 10 10 10
+10 10 10 10 10
+10 10 10 10 10
+10 10 10 10 10
+
+[PRESENCE]
+WIS		1
+GORGOR		1
+MURATA		1
+SUCCUBE		0
+PARSIFAL	0
+FRATUS		0
+HAAZEL		0
+BARON		0
+EMPEREUR	0
+
+[TEXTE]				1
+..\\Texte\\Justice\\Region5\\reg5_debut.txt 860
+
+[VICTOIRE]			1
+PLUS_NMI			-
+
+
+[DEFAITE]			2
+PLUS_AMI			-
+MORT_OBJET_MAITRE		- 5
+
+[EVENEMENTS]	2
+-
+-
+
+
+[CONSEQUENCESVICTOIRE]		0
+
+[CONSEQUENCESDEFAITE]		0
+
+[EVENEMENTS_AVANT_BATAILLE]	0
+
+
+[OUVERTURE_PORTE]
+0

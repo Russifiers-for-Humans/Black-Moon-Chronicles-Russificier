@@ -1,0 +1,26 @@
+[SECTIONS] 10
+"Paladin"		"JUSTICE___PALADIN"			"NiveauChevalier"		32	3	7	0	1PA	2PA	3PA	5PA	1PA 0PA 0PA		3PA 0PA 0PA		2T  	0PA 0PA 2PA 0PA 0PA 	4PA 0PA 0PA
+"Archer"		"JUSTICE___ARCHER"			"NiveauArcher"		27	4	4	0	1PA	2PA	3PA	4PA	1PA 0PA 0PA		3PA 0PA 0PA		2T  	0PA 0PA 2PA 0PA 0PA 	4PA 0PA 0PA
+"Phalanx"	"JUSTICE___PHALANGE"		"NiveauPhalange"		29	5	4	0	1PA	2PA	3PA	4PA	1PA 0PA 0PA		3PA 0PA 0PA		2T  	0PA 0PA 2PA 0PA 0PA 	4PA 0PA 0PA
+"Magician"	"JUSTICE___MAGICIEN"		"NiveauMagicien"		28	6	5	0	1PA	2PA	-	5PA	1PA 0PA 0PA		3PA 0PA 0PA		2T	0PA 0PA 2PA 0PA 0PA 	4PA 0PA 0PA
+"Cavalryman"	"JUSTICE___CAVALERIE"		"NiveauCavalierLeger"	33	3	8	0	1PA	5PA	9PA 	4PA	1PA 0PA 0PA		1PA 0PA 0PA		2T  	0PA 0PA 4PA 0PA 0PA	-   0PA	0PA
+"Priest"		"JUSTICE___PRETRE"			"NiveauPretre"		34	6	5	0	1PA	2PA	3PA	2PA	1PA 0PA 0PA		1PA 0PA 0PA		-  	0PA 0PA 1PA 0PA 0PA 	-   0PA 0PA
+"Archangel"	"JUSTICE___ARCHANGE"		"NiveauPR6"			26	7	10	0	1PA	3PA	2PA	1PA	1PA 0PA 0PA		2PA 0PA 0PA		2T  	0PA 0PA 2PA 0PA 0PA 	2PA 0PA 0PA
+"Catapult"	"MACHINE___CATAPULTE"	"NiveauCatapulte"			67	2	3	0	1PA	-	-	-	2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 		-   	-   	- 
+"Sling"		"MACHINE___BALISTE"		"NiveauBaliste"			66	1	3	0	1PA	-	-	-	2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 		-   	-   	- 
+"Battering ram"		"MACHINE___BELIER"		"NiveauBelier"				78	2	3	0	1PA	-	-	-	2PA 0PA 0PA		1PA 0PA 0PA		 -   -   -  		 -   -   - 		 		-   	-   	- 
+
+
+[UNITES] 11
+"Paladin"		"JUSTICE___PALADIN"		"NiveauChevalier"				32	3	0	1	1	
+"Archer"		"JUSTICE___ARCHER"		"NiveauArcher"				27	4	1	1	1
+"Phalanx"	"JUSTICE___PHALANGE"	"NiveauPhalange"				29	5	2	1	1
+"Magician"	"JUSTICE___MAGICIEN"	"NiveauMagicien"				28	6	3	1	1
+"Cavalryman"	"JUSTICE___CAVALERIE"	"NiveauCavalierLeger"			33	3	4	1	1
+"Priest"		"JUSTICE___PRETRE"		"NiveauPretre"				34	6	5	1	1
+"Archangel"	"JUSTICE___ARCHANGE"	"NiveauPR6"					26	7	6	1	1
+"Catapult"	"MACHINE___CATAPULTE"	"NiveauCatapulte"				67	2	7	1	1
+"Sling"		"MACHINE___BALISTE"		"NiveauBaliste"				66	1	8	1	1
+"Battering ram"		"MACHINE___BELIER"		"NiveauBelier"					78	2	9	1	1
+"Standard"	"JUSTICE___PD"			""							30	3	0	1	0
+

@@ -1,0 +1,75 @@
+NOM                           Великан_Черной_Луны
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          3
+TAILLE                        2
+[ANIMATION]
+ANIM__DPL                     LUNE_NOIRE___GEANT_DPL 8 12
+ANIM__ARA                     LUNE_NOIRE___GEANT_ARE 8 12
+ANIM__ARE                     LUNE_NOIRE___GEANT_ARE 8 12
+ANIM__DRA                     LUNE_NOIRE___GEANT_ARE 8 12
+ANIM__DRE                     LUNE_NOIRE___GEANT_ARE 8 12
+ANIM__SPL                     LUNE_NOIRE___GEANT_DPL 8 12
+ANIM__ASP                     LUNE_NOIRE___GEANT_ARE 8 12
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     - - -
+ANIM__SPJ                     - - -
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     LUNE_NOIRE___GEANT_MOR 4 12
+ANIM__MOR                     LUNE_NOIRE___GEANT_MOR 4 12
+ANIM__MOV                     LUNE_NOIRE___GEANT_MOR 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         C
+ENERGIE                       2500
+FEU_ENERGIE__MAX              0
+VITESSE                       4
+NIVEAU                        1
+SORT1_IMAGE1                  -
+SORT2_IMAGE2                  -
+SORT3_OMBRE                   -
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        GUERRIER
+MANA                          0
+MANA__MAX                     0
+FORCE                         300
+REGENERATION                  0
+POISON                        0
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             31
+V                             0
+B                             0
+ENERGIE_PAR_NIV               330
+FORCE_PAR_NIV                 150
+SELECTION 			60 61 60 61
+DEPLACEMENT 			62 63 62 62
+ATTAQUE 			63 62 63 63
+.
+[BESTIAIRE]
+DESCRIPTION                   Великаны - уроженцы горных племен на севере. Всем армиям хотелось бы заполучить себе великанов, так как  ила их велика, но они не так глупы, как тролли. Как правило, они служат Черной Луне, но и другие стороны в исключительных случаях могут прибегать к их услугам.
+ARMES                         Мощные оплеухи
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     3
+DPL_MONTAGNE                  4
+DPL_RIVIERE                   4
+ATTAQUE                       1
+ROMPRE                        -
+EMBUSCADE                     5
+MARCHE_FORCEE                 +2
+FORTIFICATION                 -
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

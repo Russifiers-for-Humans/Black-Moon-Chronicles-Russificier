@@ -1,0 +1,42 @@
+Regiment__mort 0
+Regiment__nom =Висмерхилл
+Regiment__pointsAction 4
+Regiment__siegeSeul 0
+Regiment__plaine 1 0
+Regiment__foret 2 0
+Regiment__montagne 3 0
+Regiment__riviere 0 5
+Regiment__attaquer 1 0 0 0 0 0
+Regiment__rompre 3 0 0 0 0 0
+Regiment__embuscade 0 2 0 0 0 0
+Regiment__marcheForcee 2 0 0 0 0 0
+Regiment__defense 4 0 0 0 0 0
+Regiment__leader -1
+Regiment__id 0
+Regiment__nbSections 3
+	Section__nom =Phalanx
+	Section__numeroObjetMaitre 25
+	Section__niveauChateau 1
+	Section__nbUnites 4
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		194 0 500 500 100 100 10 0 0
+	Section__nom =Phalanx
+	Section__numeroObjetMaitre 25
+	Section__niveauChateau 1
+	Section__nbUnites 4
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		25 0 500 500 100 100 10 0 0
+		194 0 500 500 100 100 10 0 0
+	Section__nom =Archer
+	Section__numeroObjetMaitre 21
+	Section__niveauChateau 1
+	Section__nbUnites 6
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		21 0 500 500 100 100 10 0 0
+		194 0 500 500 100 100 10 0 0

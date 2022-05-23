@@ -1,0 +1,7 @@
+0
+Мастер, мы победили!....Последние войны Света разбиты. //
+
+[EVENEMENTS]	1
+REQUESTER	..\\Texte\\Justice\\Region3\\002Victoire2.txt	855//
+
+

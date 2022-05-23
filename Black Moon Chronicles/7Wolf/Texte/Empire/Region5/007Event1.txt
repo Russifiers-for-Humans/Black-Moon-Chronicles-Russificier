@@ -1,0 +1,8 @@
+0
+Мы нашли сокровище кусков в 2000 золота...//
+
+[EVENEMENTS] 2
+GAINS_OR     2000
+REQUESTER ..\\Texte\\Empire\\Region5\\007Event1_1.txt 851
+//
+

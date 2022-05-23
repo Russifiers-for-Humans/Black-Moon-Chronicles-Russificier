@@ -1,0 +1,25 @@
+3
+Я предлагаю осадные орудия, катапульты и стропы самого высокого качества или службу контингента Карликов. Катапульта или строп стоят 1500 кусков золота с операторами и снарядами. Наши арбалетчики и топорометатели стоят 1000 за отряд.//
+Мы купим 1 катапульту, 1 строп и 1 арбалетчика. //
+Мы купим 1 строп и 2 топороносцев. //
+Мы купим 2 катапульты, 2 стропа и 1 топороносца. //
+
+[EVENEMENTS]	14
+PERTES_OR	4000
+GAINS_UNITES	141 1 1
+GAINS_UNITES	139 1 1
+GAINS_UNITES	44 1 2
+REQUESTER	..\\Texte\\Lune_noire\\Region6\\005Victoire4.txt	859
+//
+PERTES_OR	3500
+GAINS_UNITES	139 1 1
+GAINS_UNITES	45 2 2
+REQUESTER	..\\Texte\\Lune_noire\\Region6\\005Victoire4.txt	859
+//
+PERTES_OR	7000
+GAINS_UNITES	141 2 1
+GAINS_UNITES	139 2 1
+GAINS_UNITES	45 1 2
+REQUESTER	..\\Texte\\Lune_noire\\Region6\\005Victoire4.txt	859
+//
+

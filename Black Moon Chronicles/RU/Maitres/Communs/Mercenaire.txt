@@ -1,0 +1,75 @@
+NOM                           Наемник
+FAMILLE                       HUMAIN
+UNITE_COMBATTANTE             1
+CAMP                          6
+TAILLE                        1
+[ANIMATION]
+ANIM__DPL                     MERCENAIRE_DPL 8 12
+ANIM__ARA                     MERCENAIRE_ARA 8 12
+ANIM__ARE                     MERCENAIRE_ARE 8 12
+ANIM__DRA                     MERCENAIRE_DRA 8 12
+ANIM__DRE                     MERCENAIRE_DRE 8 12
+ANIM__SPL                     MERCENAIRE_SPL 8 12
+ANIM__ASP                     - - -
+ANIM__VOL                     - - -
+ANIM__DEC                     - - -
+ANIM__ATT                     - - -
+ANIM__ECR                     - - -
+ANIM__SSP                     - - -
+ANIM__SIN                     - - -
+ANIM__SPJ                     - - -
+ANIM__APU                     - - -
+ANIM__CCA                     - - -
+ANIM__CCH                     - - -
+ANIM__VOR                     MERCENAIRE_VOR 8 12
+ANIM__MOR                     MERCENAIRE_MOR 4 12
+ANIM__MOV                     MERCENAIRE_MOV 4 12
+ANIM__APP                     - - -
+SELECTIONNABLE                oui
+MORAL                         C
+ENERGIE                       250
+FEU_ENERGIE__MAX              0
+VITESSE                       4
+NIVEAU                        1
+SORT1_IMAGE1                  -
+SORT2_IMAGE2                  -
+SORT3_OMBRE                   -
+SORT4_LUMIERE                 -
+SORT5_BRAISE                  -
+SORT6_CRISTAL_VERT            -
+SORT7_ACTIVATION_ROUGE        -
+SORT8_PORTE                   -
+SORT9_PORTE_BLEU              -
+CLASSE                        GUERRIER
+MANA                          0
+MANA__MAX                     0
+FORCE                         45
+REGENERATION                  0
+POISON                        -
+HARNAIS                       -
+FORMATION                     JAMAIS
+R                             -
+V                             -
+B                             -
+ENERGIE_PAR_NIV               100
+FORCE_PAR_NIV                 10
+SELECTION 			1180 1181 1182 1180
+DEPLACEMENT 			1180 1181 1182 1180
+ATTAQUE 			1183 1183 1183 1183
+.
+[BESTIAIRE]
+DESCRIPTION                   
+ARMES                         
+PA                            5
+DPL_PLAINE                    1
+DPL_FORET                     3
+DPL_MONTAGNE                  2
+DPL_RIVIERE                   5
+ATTAQUE                       1
+ROMPRE                        2
+EMBUSCADE                     2
+MARCHE_FORCEE                 2
+FORTIFICATION                 2
+SPECIALE1                     -
+SPECIALE2                     -
+SPECIALE3                     -

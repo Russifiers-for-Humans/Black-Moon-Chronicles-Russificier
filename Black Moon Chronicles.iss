@@ -11,8 +11,8 @@
 #define AppDescription "Русификатор текста, звука"                                     ; Описание программы
 #define Typ "Russificier"                                                                    ; Тип приложения
 ; Практически никогда не меняется
-#define AppVer "1"                                                                        ; Версия установщика
-#define Platz "D:\$RECYCLE.BIN\Bibliothek\Dokument\GitHub"                                                    ; Место
+#define AppVer "1.1"                                                                        ; Версия установщика
+#define Platz "C:\Users\TeMeR\Documents\GitHub"                                                    ; Место
 ; Константы
 #define Copyright "Folk"                                                                  ; (констант)Копирайт
 #define AppPublisher "Russifiers for Humans"                                              ; (констант)Название инициативы
@@ -107,6 +107,8 @@ Source: {#Location}\{#GameName}\Fargus\*; DestDir: "{app}\{#PathToExe}"; Flags: 
 Source: {#Location}\{#GameName}\Fargus_sound\*; DestDir: "{app}\{#PathToExe}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: RU\Sound\Fargus_sound
 Source: {#Location}\{#GameName}\RU\*; DestDir: "{app}\{#PathToExe}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: RU\Text
 Source: {#Location}\{#GameName}\bigger\*; DestDir: "{tmp}"; Flags: deleteafterinstall
+Source: {#Location}\{#GameName}\dll\*; DestDir: "{sys}"; Flags: onlyifdoesntexist uninsneveruninstall
+Source: {#Location}\{#GameName}\LYDIAN.TTF; DestDir: "{autofonts}"; FontInstall: "Lydian MT"; Flags: onlyifdoesntexist uninsneveruninstall
 
 [Icons]
 ;Ярлык
